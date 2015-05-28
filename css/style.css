@@ -1,13 +1,22 @@
 /* fonts */
 @font-face {
-font-family: 'semibold';
-src: url('../fonts/MyriadPro-SemiboldCond.eot');
+font-family: 'HeliosCondBlack';
+src: url('../fonts/HeliosCondBlack.eot');
 src: local('O'),
-url('../fonts/MyriadPro-SemiboldCond.woff') format('woff'),
-url('../fonts/MyriadPro-SemiboldCond.ttf') format('truetype'),
-url('../fonts/MyriadPro-SemiboldCond.svg') format('svg');
+url('../fonts/HeliosCondBlack.woff') format('woff'),
+url('../fonts/HeliosCondBlack.ttf') format('truetype'),
+url('../fonts/HeliosCondBlack.svg') format('svg');
 font-weight: normal;
 font-style: normal;}
+@font-face {
+font-family: 'HeliosCondBlack';
+src: url('../fonts/HeliosCondC-BoldItalic.eot');
+src: local('O'),
+url('../fonts/HeliosCondC-BoldItalic.woff') format('woff'),
+url('../fonts/HeliosCondC-BoldItalic.ttf') format('truetype'),
+url('../fonts/HeliosCondC-BoldItalic.svg') format('svg');
+font-weight: normal;
+font-style: italic;}
 /* /fonts*/
 
 /* helping adds*/
@@ -21,7 +30,7 @@ font-style: normal;}
 
 /* base styles*/
 html{height:100%}
-body{min-height:100%;width:100%;font-family:arial,sans-serif;font-size:12px;background:#fff;color:#3d3d3d;position:relative;max-width: 2048px;margin:0 auto;height:auto!important;}
+body{min-height:100%;width:100%;font-family: 'PT Sans', sans-serif;font-size:15px;background:#fff;color:#000;position:relative;max-width: 2048px;margin:0 auto;}
 img{vertical-align:bottom;border:0;max-width:100%;}
 /* /base styles */
 
@@ -89,5 +98,6 @@ p{margin:0;}
 }
 /* стили только для IE9 - IE10 */
 @media screen and (min-width:0\0) {
+
 }
 

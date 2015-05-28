@@ -6,6 +6,9 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<title></title>
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 	<script src="js/jquery-1.10.0.min.js" type="text/javascript"></script>
