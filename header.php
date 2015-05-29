@@ -11,6 +11,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/dima.css" media="all" />
 	<script src="js/jquery-1.10.0.min.js" type="text/javascript"></script>
 
 	<script src="js/selectivizr-min.js" type="text/javascript"></script>
@@ -33,6 +34,7 @@
 	<script src="js/skrollr.min.js" type="text/javascript"></script>
 
 	<script src="js/scr.js" type="text/javascript"></script>
+	<script src="js/dima.js" type="text/javascript"></script>
 
 	<!--[if lt IE 9]>
 		<script>
@@ -51,9 +53,5 @@
 </head>
 <body>
 	<?partial('zHiddenBlock');?>
+	<div class="main">
 
-	<header class="header">
-		<div class="mbox">
-
-		</div>
-	</header>
