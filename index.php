@@ -6,4 +6,5 @@
 <?partial('section_6')?>
 <?partial('section_7')?>
 
+<?partial('section_13')?>
 <?partial('section_14')?>

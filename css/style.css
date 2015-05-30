@@ -30,7 +30,7 @@ font-style: italic;}
 
 /* base styles*/
 html{height:100%}
-body{min-height:100%;width:100%;font-family: 'PT Sans', sans-serif;font-size:15px;background:#f8f7f0;color:#000;position:relative;max-width: 2048px;margin:0 auto;margin-right: 0 !important;}
+body{min-height:100%;width:100%;font-family: 'PT Sans', sans-serif;font-size:15px;background:#f8f7f0;color:#000;position:relative;max-width: 2048px;margin:0 auto;margin-right: 0 !important;min-width: 320px;}
 img{vertical-align:bottom;border:0;max-width:100%;}
 /* /base styles */
 
