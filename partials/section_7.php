@@ -15,7 +15,7 @@
                         </div>
                     </div>
                     <div class="section-7-main-button-wrap">
-                        <a href="#video-hrustalev" class="fancybox">
+                        <a href="#video-hrustalev" class="fancybox-video">
                             <div class="section-7-main-button">
                                 <span>Посмотреть видео ролик</span>
                             </div>
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                     <div class="section-7-main-button-wrap">
-                        <a href="#video-vasilev" class="fancybox">
+                        <a href="#video-vasilev" class="fancybox-video">
                             <div class="section-7-main-button">
                                 <span>Посмотреть видео ролик</span>
                             </div>
