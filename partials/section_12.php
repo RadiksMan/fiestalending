@@ -59,32 +59,32 @@
 			</div>
 			<div class="section-twelfth-fotos cfix">
 				<div class="section-twelfth-img">
-					<a href="#">
+					<a href="images/perfirmance-item-1-big.jpg" class="fancybox">
 						<img src="images/perfomance-item-1.png" alt="" />
 					</a>
 				</div>
 				<div class="section-twelfth-img">
-					<a href="#">
+					<a href="images/perfirmance-item-2-big.jpg" class="fancybox">
 						<img src="images/perfomance-item-2.png" alt="" />
 					</a>
 				</div>
 				<div class="section-twelfth-img">
-					<a href="#">
+					<a href="images/perfirmance-item-3-big.jpg" class="fancybox">
 						<img src="images/perfomance-item-3.png" alt="" />
 					</a>
 				</div>
 				<div class="section-twelfth-img">
-					<a href="#">
+					<a href="images/perfirmance-item-4-big.jpg" class="fancybox">
 						<img src="images/perfomance-item-4.png" alt="" />
 					</a>
 				</div>
 				<div class="section-twelfth-img">
-					<a href="#">
+					<a href="images/perfirmance-item-5-big.jpg" class="fancybox">
 						<img src="images/perfomance-item-5.png" alt="" />
 					</a>
 				</div>
 				<div class="section-twelfth-img">
-					<a href="#">
+					<a href="images/perfirmance-item-6-big.jpg" class="fancybox">
 						<img src="images/perfomance-item-6.png" alt="" />
 					</a>
 				</div>
