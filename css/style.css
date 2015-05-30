@@ -36,7 +36,7 @@ img{vertical-align:bottom;border:0;max-width:100%;}
 
 /* base typo*/
 .ctext h1,.ctext h2,.ctext h3,.ctext h4,.ctext h5,.mainheading,.subheading,.thirdheading,.fourheading,.fiveheading{font-weight:normal;margin-bottom:1em;}
-a{color:#12c;border:0;}
+a{color:#12c;border:0;text-decoration: none;}
 a:hover{color:#dd4b39;}
 p{margin:0;}
 .mainheading,.ctext h1{}
