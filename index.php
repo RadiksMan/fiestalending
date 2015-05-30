@@ -3,3 +3,4 @@
 <?partial('section_3')?>
 <?partial('section_4')?>
 <?partial('section_5')?>
+<?partial('section_6')?>

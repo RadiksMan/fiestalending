@@ -30,7 +30,7 @@ font-style: italic;}
 
 /* base styles*/
 html{height:100%}
-body{min-height:100%;width:100%;font-family: 'PT Sans', sans-serif;font-size:15px;background:#fff;color:#000;position:relative;max-width: 2048px;margin:0 auto;}
+body{min-height:100%;width:100%;font-family: 'PT Sans', sans-serif;font-size:15px;background:#f8f7f0;color:#000;position:relative;max-width: 2048px;margin:0 auto;margin-right: 0 !important;}
 img{vertical-align:bottom;border:0;max-width:100%;}
 /* /base styles */
 
@@ -117,30 +117,34 @@ p{margin:0;}
 
 
 /*section_5*/
-.section-5{background: url(../images/suit-bg.jpg) center top no-repeat;padding-top: 40px;}
+.section-5{background: url(../images/suit-bg.jpg) center top no-repeat;padding-top: 59px;}
 .section-5 .section-title span {color: #fff;}
-.section-5-bottom{padding-top: 40px;color: #fff;}
+.section-5-bottom{padding-top: 30px;color: #fff;line-height: 17px;padding-bottom: 41px;}
 
 .section-5-middle-item-wrap{float: left;width: 33.33%;}
 
 .section-5-middle-item{border:3px solid transparent;position: relative;overflow: hidden;border-radius: 50%;height: 315px;width: 315px;margin: 0 auto;}
 .section-5-middle-item:hover{border:3px solid #f9c311;}
 
-.section-5-middle-item-button{position: absolute;top: 50%;left: 50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);transition:all ease 300ms;}
-.section-5-middle-item-button-wrap{border-radius: 10px;padding: 5px 8px;border:2px solid #f9c311;}
+.section-5-middle-item-button{position: absolute;top: 67%;left: 50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);transition:all ease 300ms;}
+.section-5-middle-item-button-wrap{border-radius: 18px;padding: 11px 25px;border:2px solid #f9c311;}
 .section-5-middle-item-button-wrap span{color: #f9c311;font-size: 30px;}
 .section-5-middle-item-button-active{position: absolute;top: 50%;left: 50%;-moz-transform:translate(-50%,-50%);opacity: 0;transition:opacity ease 300ms;margin-top:-76px;margin-left:-76px;}
 .section-5-middle-item:hover .section-5-middle-item-button-active{opacity: 1;visibility: visible;}
 .section-5-middle-item:hover .section-5-middle-item-button{opacity: 0;visibility: hidden;}
-.section-5-middle-item img{width: 100%;height: 100%;}
+.section-5-middle-item img{width: 100%;height: 100%;-webkit-filter: grayscale(85%);filter: grayscale(85%);-moz-filter: grayscale(85%);}
+.section-5-middle-item:hover img{-webkit-filter: grayscale(0%);filter: grayscale(0%);-moz-filter: grayscale(0%);}
+
+.section-5-middle{padding-top: 57px;}
 
 
-
-
-
-
-
-
+.section-6-wrap{padding-top: 60px;padding-bottom: 53px;}
+.section-6-button a,.section-6-button span{font-size: 24px;color: #762a85;padding:0 20px;border-radius: 25px;border:1px solid #762a85;text-transform: uppercase;height: 55px;display: table-cell;text-decoration: none;text-align: center;vertical-align: middle;transition:all ease 300ms;}
+.section-6-button a:hover{color: #fff;background-color: #762a85;}
+.section-6-item{float: left;width: 33.33%;}
+.section-6-button {display: inline-block;padding-top: 43px;}
+.section-6-top-text{padding-top: 89px;line-height: 18px;padding-bottom: 53px;}
+.section-6-bottom-row{padding:0px 112px;}
 
 
 
@@ -163,9 +167,12 @@ p{margin:0;}
     .mbox{width:100%;padding-left: 15px;padding-right: 15px;box-sizing:border-box;}
     .section-1-top-item span{font-size: 21px;}
 }
-@media screen and (max-width:960px){
+@media screen and (max-width:992px){
     .section-1-middle-text-right {position: absolute;right: 0px;top: 0px;}
     .section-3-row-wrap {padding: 0px 10px;}
+    .section-5-middle-item-wrap{float: none;width: 100%;padding-bottom: 30px;}
+    .section-5{background-size: 100% 100%;-webkit-background-size: 100% 100%;background-color: #4B3B55;background-image: none;}
+
 }
 @media screen and (max-width:767px){
     .section-1-middle-text {max-width: 100%;}
@@ -174,7 +181,7 @@ p{margin:0;}
     .section-2-bottom-left{padding-bottom: 15px;}
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:666px){
     .section-1-top-item{float: none;width: 100%;}
     .section-1-top{padding-bottom: 25px;}
     .section-1-middle-text-right{width: 34%;}
@@ -186,7 +193,7 @@ p{margin:0;}
     .section-3-item{float: none;width: 100%;padding-bottom: 20px;}
     .section-3-item-text {padding-top: 8px}
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:479px){
     .section-1-middle-text p {font-size: 24px;line-height: 24px;}
     .section-1-middle-text-wrap {bottom: 35px;}
 }

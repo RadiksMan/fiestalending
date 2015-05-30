@@ -7,7 +7,7 @@
             <div class="section-5-middle">
                 <div class="section-5-middle-row cfix">
                     <div class="section-5-middle-item-wrap">
-                        <a href="#">
+                        <a href="images/suit-item-1-fancybox.png" class="fancybox">
                             <div class="section-5-middle-item">
                                 <img src="images/suit-item-1.jpg"alt="">
                                 <div class="section-5-middle-item-button">
@@ -22,7 +22,7 @@
                         </a>
                     </div>
                     <div class="section-5-middle-item-wrap">
-                        <a href="#">
+                        <a href="images/suit-item-2-fancybox.png" class="fancybox">
                             <div class="section-5-middle-item">
                                 <img src="images/suit-item-2.jpg"alt="">
                                 <div class="section-5-middle-item-button">
@@ -37,7 +37,7 @@
                         </a>
                     </div>
                     <div class="section-5-middle-item-wrap">
-                        <a href="#">
+                        <a href="images/suit-item-3-fansybox.jpg" class="fancybox">
                             <div class="section-5-middle-item">
                                 <img src="images/suit-item-3.jpg"alt="">
                                 <div class="section-5-middle-item-button">
