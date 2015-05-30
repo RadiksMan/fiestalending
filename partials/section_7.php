@@ -14,6 +14,14 @@
                             <p>с группой Fiesta</p>
                         </div>
                     </div>
+                    <div class="section-7-main-button-wrap">
+                        <a href="#video-hrustalev" class="fancybox">
+                            <div class="section-7-main-button">
+                                <span>Посмотреть видео ролик</span>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
                 <div class="section-7-rightside text-right">
                     <div class="section-7-text">
@@ -23,6 +31,13 @@
                             <p>Отличные музыканты у которых хороший музыкальный</p>
                             <p>вкус и мне завидно тем кто приглашает их</p>
                         </div>
+                    </div>
+                    <div class="section-7-main-button-wrap">
+                        <a href="#video-vasilev" class="fancybox">
+                            <div class="section-7-main-button">
+                                <span>Посмотреть видео ролик</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="section-7-centerside text-center">

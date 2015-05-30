@@ -129,7 +129,7 @@ p{margin:0;}
 .section-5-middle-item-button{position: absolute;top: 67%;left: 50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);transition:all ease 300ms;}
 .section-5-middle-item-button-wrap{border-radius: 18px;padding: 11px 25px;border:2px solid #f9c311;}
 .section-5-middle-item-button-wrap span{color: #f9c311;font-size: 30px;}
-.section-5-middle-item-button-active{position: absolute;top: 50%;left: 50%;-moz-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);opacity: 0;transition:opacity ease 300ms;margin-top:-76px;margin-left:-76px;}
+.section-5-middle-item-button-active{position: absolute;top: 50%;left: 50%;transition:opacity ease 300ms;margin-top:-76px;margin-left:-76px;opacity:0;}
 .section-5-middle-item:hover .section-5-middle-item-button-active{opacity: 1;visibility: visible;}
 .section-5-middle-item:hover .section-5-middle-item-button{opacity: 0;visibility: hidden;}
 .section-5-middle-item img{width: 100%;height: 100%;-webkit-filter: grayscale(85%);filter: grayscale(85%);-moz-filter: grayscale(85%);}
@@ -148,33 +148,37 @@ p{margin:0;}
 
 
 .section-7{background: url(../images/two-mens-bg.jpg) center center no-repeat;position: relative;}
-.section-7 .section-title{position: absolute;left: 0;right: 0;top: 28px;}
+.section-7 .section-title{position: absolute;left: 0;right: 0;top: 48px;}
 
-.section-7-text{position: absolute;bottom: 10px;left: 0;}
+.section-7-text{position: absolute;bottom: 46px;left: 0;line-height: 19px;}
 .section-7-middle{position: relative;}
-.section-7-rightside .section-7-text{left: auto;right: 0;}
+.section-7-rightside .section-7-text{left: auto;right: 3px;}
 .section-7-text p{color: #fff;}
 .section-7-text p span{font-weight: bold;}
 .section-7-italic{padding-top: 10px;font-style: italic;}
 
-.section-7-centerside{position: absolute;bottom: 10px;left: 50%;-moz-transform:translate(-50%,0%);transform:translate(-50%,0%);-webkit-transform:translate(-50%,0%);}
-.section-7-leftside,.section-7-rightside {min-height: 477px;float: left;width: 50%;}
+.section-7-centerside{position: absolute;bottom: 45px;left: 46%;-moz-transform:translate(-50%,0%);transform:translate(-50%,0%);-webkit-transform:translate(-50%,0%);}
+.section-7-leftside,.section-7-rightside {min-height: 477px;float: left;width: 50%;position: relative;}
 
-.section-7-centerside p{}
-.section-7-centerside a{}
+.section-7-centerside p{font-size: 24px;text-transform: uppercase;color: #fff;padding-bottom: 13px;}
+.section-7-centerside a{font-size: 20px;color: #f9c311;padding: 0 19px;border-radius: 25px;border: 1px solid #f9c311;text-transform: uppercase;height: 46px;display: table-cell;text-decoration: none;text-align: center;vertical-align: middle;transition: all ease 300ms;white-space: nowrap;}
+.section-7-centerside a:hover{color: #fff;background-color: #f9c311;}
 
+.section-7-main-button{color: #f9c311;font-weight: bold;background-color: #7f2b8f;padding:21px 8px 20px 7px;font-size:23px;text-transform:uppercase;letter-spacing:-1px;font-size:22px;font-size:21px;}
+.section-7-main-button:after{border: 31px solid transparent;content: '';
+    position: absolute;top: 0;left: -45px;border-right: 14px solid rgb(127, 43, 143);}
+.section-7-main-button:before{content: '';position: absolute;border-style: solid;border-width: 32px 8px;border-color: #7f2b8f transparent transparent #7f2b8f;bottom: -2px;right: -16px; }
+.section-7-main-button-wrap{position: absolute;top: 39%;right: 35px;opacity: 0;visibility: hidden;transition:all ease 300ms;}
+.section-7-rightside .section-7-main-button-wrap {left: -19px;right: auto;}
+.section-7-rightside .section-7-main-button:before{content: '';position: absolute;border-style: solid;border-width: 32px 8px;border-color: transparent #7f2b8f #7f2b8f transparent;bottom: 0px;right: auto;left: -16px; }
+.section-7-rightside .section-7-main-button:after{left: auto;right: -14px;border-left: 14px solid rgb(127, 43, 143);border-right: none;}
+.section-7-rightside:hover .section-7-main-button-wrap{opacity: 1;visibility: visible;}
+.section-7-leftside:hover .section-7-main-button-wrap{opacity: 1;visibility: visible;}
 
+.video-hrustalev video,.video-vasilev video{height: 100%;width: 100%;}
+.section-7-main-button-wrap>a{display: block;}
 
-
-
-
-
-
-
-
-
-
-
+.fancybox-inner{height: auto !important;overflow-y:hidden !important;}
 
 
 
@@ -204,6 +208,7 @@ p{margin:0;}
 @media screen and (max-width:1024px){
     .mbox{width:100%;padding-left: 15px;padding-right: 15px;box-sizing:border-box;}
     .section-1-top-item span{font-size: 21px;}
+    .section-7 .mbox{padding:0;}
 }
 @media screen and (max-width:992px){
     .section-1-middle-text-right {position: absolute;right: 0px;top: 0px;}
@@ -211,6 +216,16 @@ p{margin:0;}
     .section-5-middle-item-wrap{float: none;width: 100%;padding-bottom: 30px;}
     .section-5{background-size: 100% 100%;-webkit-background-size: 100% 100%;background-color: #4B3B55;background-image: none;}
 
+    .section-7-leftside, .section-7-rightside{width: 100%;float: none;}
+    .section-7-leftside{background: url(../images/two-mens-bg-1.jpg) center center no-repeat;}
+    .section-7-rightside{background: url(../images/two-mens-bg-2.jpg) center center no-repeat;}
+    .section-7 {background: none;}
+    .section-7-text{left: 0;right: 0;text-align: center;bottom: 30%;}
+    .section-7-centerside{position: absolute;left: 50%;bottom: 28px;}
+    .section-7-rightside .section-7-text{left: 0;right: 0;bottom: 47%;}
+    .section-7-main-button-wrap{opacity: 1;visibility: visible;left: 50%;top: 74%;-moz-transform:translate(-50%,0%);transform:translate(-50%,0%);-webkit-transform:translate(-50%,0%);right: auto;}
+    .section-7-rightside .section-7-main-button-wrap{left: 50%;right: auto;top: 58%;}
+    .section-7-main-button:after,.section-7-main-button:before{display: none;}
 }
 @media screen and (max-width:767px){
     .section-1-middle-text {max-width: 100%;}
@@ -233,6 +248,7 @@ p{margin:0;}
     .section-2-middle-item{float: none;width: 100%;padding-bottom: 15px;}
     .section-3-item{float: none;width: 100%;padding-bottom: 20px;}
     .section-3-item-text {padding-top: 8px}
+    .section-7-main-button{font-size: 17px;padding: 15px 3px 15px 4px;text-align: center;}
 }
 @media screen and (max-width:479px){
     .section-1-middle-text p {font-size: 24px;line-height: 24px;}

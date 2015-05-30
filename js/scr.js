@@ -31,7 +31,16 @@ function inputNumber(block) {
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
-	$(".fancybox").fancybox();
+	$(".fancybox").fancybox({
+		maxWidth	: 1280,
+		maxHeight	: 720,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
 	modernize();
 
 });
