@@ -44,11 +44,38 @@ function datepickerInit(){
 
 }
 
+function toggleSlide(){
 
+	$(document).on('click','.section-tenth-item-title', function(){
+		if($(window).width()<768){
+
+
+			if(!$(this).parents('.section-tenth-item').is('.active')){
+				$(this).parents('.section-tenth-wrap').find('.section-tenth-item').removeClass('active');
+				$(this).parents('.section-tenth-item').addClass('active');
+				$(this).parent().find('.section-tenth-item-body').slideDown(300);
+			}
+			else{
+				$(this).parents('.section-tenth-item').removeClass('active');
+			}
+			$(this).parents('.section-tenth-wrap').find('.section-tenth-item:not(.active)').find('.section-tenth-item-body').slideUp(300);
+		}
+	});
+}
 
 $(document).ready(function(){
 
 	inputNums();
 	datepickerInit();
+	toggleSlide();
+
+});
+
+$(window).resize(function(){
+
+	if($(window).width()>767){
+		$('.section-tenth-item-body').removeAttr('style');
+		$('.section-tenth-item-title').removeClass('active');
+	}
 
 });

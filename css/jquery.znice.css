@@ -16,7 +16,8 @@
 .zNice-select-open{display:block;position:absolute;right:0;top:0;}
 .zNice-select-list{position:absolute;left:0px;top:100%;list-style:none;display: none;margin:0;overflow-y:auto;min-width: 100%;white-space:nowrap;}
 .zNice-select-list li{display:block;position:relative;}
-.zNice-select-item{display:block;position:relative;}
+.zNice-select-list li:first-child{display: none;}
+.zNice-select-item{display:block;position:relative;font-size: 15px;color:#7f2b8f;font-style: italic;}
 
 .zNice-checkbox input,.zNice-radio input,.zNice-select select{position:absolute;left:-99999em;border:none;margin:0;padding:0;}
 
@@ -79,15 +80,15 @@
  * Selects Inputs
  * ------------- */
  /*Default Select*/
-.zNice-select{display:block;height:28px;line-height:28px;font-size:12px;}
-.zNice-select .zNice-bg{background:#fff;border:1px solid #ccc;}
+.zNice-select{display:block;height:46px;line-height:46px;font-size:12px;}
+.zNice-select .zNice-bg{background:transparent;border:1px solid #7f2b8f;border-radius: 20px;}
 .zNice-select-text{overflow:hidden;position:relative;}
 
-.zNice-select-open{right:4px;top:4px;width:20px;height:20px;background:url('../images/zNice-select-open.png') no-repeat left top;}
+.zNice-select-open{right:10px;top:7px;width:30px;height:30px;border:1px solid #7f2b8f;border-radius:50%;background:url('../images/zNice-select-open.png') no-repeat left top;}
 .zNice-select:hover .zNice-select-open,.zNice-expanded .zNice-select-open{background-position:right bottom;}
 
-.zNice-select-list{border-bottom:1px solid #ccc;background-color: #fff;max-height:172px;}
-.zNice-select-list li{border-width:0 1px 1px;border-style:solid;border-color:#ccc;}
+.zNice-select-list{border-bottom:1px solid #7f2b8f;border-top:1px solid #7f2b8f;background-color: #fff;max-height:172px;border-radius: 15px;margin-top: 5px;}
+.zNice-select-list li{border-width:0 1px 1px;border-style:solid;border-color:#7f2b8f;}
 .zNice-select-list li:last-child{border-bottom:0;}
 .zNice-select-list li.zNice-selected>.zNice-select-item,.zNice-select-list li:hover>.zNice-select-item{background:#1794c6;color:#fff;}
 .zNice-select-list li .zNice-select-item{margin:0 -1px;}

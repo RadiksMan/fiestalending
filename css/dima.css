@@ -89,6 +89,37 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
 
 /* /section-elewenth */
 
+/* section-tenth */
+
+.section-10{padding:62px 0 40px 0;}
+.section-tenth-wrap{padding-top: 48px;}
+.section-tenth-item{float: left;width: 33%;}
+.section-tenth-item-wrap{width: 251px;margin: 0 auto;}
+.section-tenth-item-title{border:1px solid #7f2b8f;border-radius: 15px;font-size: 24px;font-weight: 700;text-transform: uppercase;color:#7f2b8f;line-height: 56px;text-align: center;margin-bottom: 16px;position: relative;}
+.section-tenth-item-title:after{content: '';display: none;position: absolute;width: 0;height: 0;border-width: 10px;border-style:solid;border-color: #7f2b8f transparent transparent transparent;top: 50%;right: 15px;margin-top: -5px;}
+.section-tenth-item.active .section-tenth-item-title:after{border-color: transparent transparent #7f2b8f transparent;margin-top: -15px;}
+.section-tenth-item-body{border:1px solid #7f2b8f;border-radius: 15px;padding: 22px 10px 90px 10px;position: relative;min-height: 377px;box-sizing:border-box;}
+.section-tenth-item-form-col{width: 50%;float: left;margin: 0 auto;text-align: center;}
+.section-tenth-item-form-col.no-float{float: none;}
+.circle-value{display: inline-block;width: 69px;height: 69px;color:#e57825;font-size: 30px;font-weight: 700;text-align: center;box-sizing:border-box;border:2px solid #e57825;border-radius: 50%;position: relative;margin-bottom: 24px;}
+.circle-value.active{color:#fff;border:none;background-image:url(../images/price-circle-active.png);background-repeat:no-repeat;background-position: center;}
+.circle-value-main{display: inline-block;margin: 17px 0 0 -5px;}
+.from{display: block;position: absolute;bottom: 0;right: 100%;font-size:14px;color:#221f1f;text-transform: uppercase;}
+.to{display: block;position: absolute;top: 0;left: 100%;font-size:14px;color:#221f1f;text-transform: uppercase;width: 22px;}
+.price-title{font-size: 15px;color: #221f1f;text-transform: uppercase;margin-bottom: 32px;}
+.price-text{font-size: 15px;color: #221f1f;}
+
+.section-tenth-item-form-submit{position: absolute;bottom: 34px;left:0;width: 100%;padding: 0 10px 0 10px;text-align: center;box-sizing:border-box;}
+.section-tenth-item-form-submit input{width: 100%;max-width: 190px;font-size: 24px;color:#fff;text-transform: uppercase;line-height: 44px;background-color: #f9c311;border-radius: 30px;border:none;display: inline-block;cursor:pointer;transiton:all 300ms ease;-webkit-transiton:all 300ms ease;-moz-transiton:all 300ms ease;-khtml-transiton:all 300ms ease;}
+.section-tenth-item-form-submit input:hover{background-color: #dfab00;}
+.section-tenth-item-form-submit input:focus{outline: none;}
+.section-tenth-item-form-select{margin-bottom: 30px;}
+.section-tenth-item-form-text{text-align: center;font-size: 15px;color:#221f1f;}
+
+.section-tenth-description{font-weight: 700;color:#e57825;font-size: 18px;text-align: center;padding: 68px 0 27px 0;}
+
+/* /section-tenth */
+
 @media screen and (max-width:1920px){}
 @media screen and (max-width:1600px){}
 @media screen and (max-width:1366px){}
@@ -110,11 +141,19 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
 	.section-thirdtheenth-items-wrap{padding: 63px 0 0px 0;}
 	.section-thirdtheenth-item-img{margin:0 auto 20px auto;}
 	.section-thirdtheenth-item{width: 50%;margin-bottom: 35px;}
+		
+	.section-tenth-wrap{text-align: center;}
+	.section-tenth-item{float: none;width: 40%;display: inline-block;margin-bottom: 20px;}
 }
 @media screen and (max-width:767px){
 	.section-twelfth-fotos, .section-twelfth-table{float: none;width: 100%;padding-right: 0;}
 	.section-twelfth-table{margin-bottom: 30px;}
 	.section-twelfth-img{width: 33%;text-align: center;}
+
+	.section-tenth-item-title:after{display: block;}
+
+	.section-tenth-item{width: 100%;}
+	.section-tenth-item-body{display: none;min-height: 0;padding:22px 10px 100px 10px;}
 }
 @media screen and (max-width:666px){
 	.footer-section{padding-top:59px;margin-left: -50%;transform:translateX(50%);-moz-transform:translateX(50%);-khtml-transform:translateX(50%);-webkit-transform:translateX(50%);}
