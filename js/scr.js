@@ -31,7 +31,7 @@ function inputNumber(block) {
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
-
+	$('.fancybox').fancybox();
 	modernize();
 
 });

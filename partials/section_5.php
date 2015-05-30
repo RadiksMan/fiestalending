@@ -9,21 +9,45 @@
                     <div class="section-5-middle-item-wrap">
                         <a href="#">
                             <div class="section-5-middle-item">
-
+                                <img src="images/suit-item-1.jpg"alt="">
+                                <div class="section-5-middle-item-button">
+                                    <div class="section-5-middle-item-button-wrap">
+                                        <span>СМОТРЕТЬ</span>
+                                    </div>
+                                </div>
+                                <div class="section-5-middle-item-button-active">
+                                    <img src="../images/suit-button-hover.png" alt="">
+                                </div>
                             </div>
                         </a>
                     </div>
                     <div class="section-5-middle-item-wrap">
                         <a href="#">
                             <div class="section-5-middle-item">
-
+                                <img src="images/suit-item-2.jpg"alt="">
+                                <div class="section-5-middle-item-button">
+                                    <div class="section-5-middle-item-button-wrap">
+                                        <span>СМОТРЕТЬ</span>
+                                    </div>
+                                </div>
+                                <div class="section-5-middle-item-button-active">
+                                    <img src="../images/suit-button-hover.png" alt="">
+                                </div>
                             </div>
                         </a>
                     </div>
                     <div class="section-5-middle-item-wrap">
                         <a href="#">
                             <div class="section-5-middle-item">
-
+                                <img src="images/suit-item-3.jpg"alt="">
+                                <div class="section-5-middle-item-button">
+                                    <div class="section-5-middle-item-button-wrap">
+                                        <span>СМОТРЕТЬ</span>
+                                    </div>
+                                </div>
+                                <div class="section-5-middle-item-button-active">
+                                    <img src="../images/suit-button-hover.png" alt="">
+                                </div>
                             </div>
                         </a>
                     </div>
