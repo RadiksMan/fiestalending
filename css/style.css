@@ -139,7 +139,7 @@ p{margin:0;}
 
 
 .section-6-wrap{padding-top: 60px;padding-bottom: 53px;}
-.section-6-button a,.section-6-button span{font-size: 24px;color: #762a85;padding:0 20px;border-radius: 25px;border:1px solid #762a85;text-transform: uppercase;height: 55px;display: table-cell;text-decoration: none;text-align: center;vertical-align: middle;transition:all ease 300ms;}
+.section-6-button a,.section-6-button span{font-size: 24px;color: #762a85;padding:0 23px;border-radius: 25px;border:1px solid #762a85;text-transform: uppercase;height: 55px;display: table-cell;text-decoration: none;text-align: center;vertical-align: middle;transition:all ease 300ms;white-space:nowrap;}
 .section-6-button a:hover{color: #fff;background-color: #762a85;}
 .section-6-item{float: left;width: 33.33%;}
 .section-6-button {display: inline-block;padding-top: 43px;}
@@ -179,6 +179,9 @@ p{margin:0;}
     .section-2-middle-item-description{padding-left: 5px;padding-right: 5px;font-size: 13px;line-height: 13px;}
     .section-2-bottom-left,.section-2-bottom-right{float: none;width: 100%;text-align: center;margin: 0 auto;}
     .section-2-bottom-left{padding-bottom: 15px;}
+    .section-6-item{float: none;width: 100%;text-align: center;}
+    .section-6-button {padding-top: 25px;padding-bottom: 25px;}
+    .section-6-bottom-row{padding: 0px;}
 }
 
 @media screen and (max-width:666px){
@@ -196,6 +199,7 @@ p{margin:0;}
 @media screen and (max-width:479px){
     .section-1-middle-text p {font-size: 24px;line-height: 24px;}
     .section-1-middle-text-wrap {bottom: 35px;}
+    .section-5-middle-item {height: 290px;width: 290px;}
 }
 
 @media screen and (max-width:320px){
