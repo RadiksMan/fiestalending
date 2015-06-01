@@ -27,7 +27,7 @@ function inputNumber(block) {
 }
 function circleCanvas(){
 	if($('.canvas-cirlce').length>0){
-			var mas = [250,250,3000,250,100]
+			var point = 0;
 			$('.section-9-item-circle').each(function(){
 				var element = $(this).find('.canvas-cirlce');
 				var percent = $(this).find('.canvas-cirlce').attr('value');
@@ -35,13 +35,15 @@ function circleCanvas(){
 					'fgColor':"#f9c311",
 					'bgColor':"#fff",
 					'thickness':.05,
-					'max':2000,
+					'max':mas[point],
 					'readOnly':true,
 					'displayInput':true,
 					'dynamicDraw': true,
 					'width':125,
 					'height':125
 				});
+
+				point++;
 
 				$({value: 0}).animate({ value: percent }, {
 		            duration: 1500,
