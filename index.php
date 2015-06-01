@@ -6,7 +6,7 @@
 <?partial('section_6')?>
 <?partial('section_7')?>
 <?partial('section_8')?>
-
+<?partial('section_9')?>
 <?partial('section_10')?>
 <?partial('section_11')?>
 <?partial('section_12')?>

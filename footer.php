@@ -1,4 +1,4 @@
-		
+
 		<footer>
 			<div class="mbox">
 				<div class="section-title white-text text-center">
@@ -14,7 +14,7 @@
 						</a>
 					</div>
 					<div class="footer-col">
-						<a href="#">
+						<a href="https://vk.com\fiestamusic">
 							<span class="footer-icon-wrap">
 								<img src="images/footer-item-img-2.png" alt="" />
 							</span>
@@ -22,7 +22,7 @@
 						</a>
 					</div>
 					<div class="footer-col">
-						<a href="#">
+						<a href="https://instagram.com/fiestakazan/">
 							<span class="footer-icon-wrap">
 								<img src="images/footer-item-img-3.png" alt="" />
 							</span>
@@ -30,7 +30,7 @@
 						</a>
 					</div>
 					<div class="footer-col">
-						<a href="#">
+						<a href="mailto:fiestamus@gmail.com">
 							<span class="footer-icon-wrap">
 								<img src="images/footer-item-img-4.png" alt="" />
 							</span>
@@ -38,7 +38,7 @@
 						</a>
 					</div>
 					<div class="footer-col">
-						<a href="#">
+						<a href="https://www.youtube.com/channel/UCLNt-luCsBirJkRAyiPmDLA">
 							<span class="footer-icon-wrap">
 								<img src="images/footer-item-img-5.png" alt="" />
 							</span>

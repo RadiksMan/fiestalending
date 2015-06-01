@@ -11,7 +11,7 @@
             <div class="section-8-middle">
                 <div class="section-8-row cfix">
                     <div class="section-8-item cfix">
-                        <div class="section-8-item-img"><img src="images/item-people-1.png" alt=""></div>
+                        <div class="section-8-item-img"><a href="images/item-people-1-big.jpg" class="fancybox"><img src="images/item-people-1.png" alt=""></a></div>
                         <div class="section-8-item-desc">
                             <div class="section-8-item-title">Катя Ахметзянова</div>
                             <div class="section-8-item-minititle">Bокал</div>
@@ -19,7 +19,7 @@
                         </div>
                     </div>
                     <div class="section-8-item cfix">
-                        <div class="section-8-item-img"><img src="images/item-people-2.png" alt=""></div>
+                    <div class="section-8-item-img"><a href="images/item-people-2-big.jpg" class="fancybox"><img src="images/item-people-2.png" alt=""></a></div>
                         <div class="section-8-item-desc">
                             <div class="section-8-item-title">Ильнар Фатихов </div>
                             <div class="section-8-item-minititle">бас гитара и клавишные аналоговые инструменты</div>
@@ -29,7 +29,7 @@
                 </div>
                 <div class="section-8-row cfix">
                     <div class="section-8-item cfix">
-                        <div class="section-8-item-img"><img src="images/item-people-3.png" alt=""></div>
+                    <div class="section-8-item-img"><a href="images/item-people-3-big.jpg" class="fancybox"><img src="images/item-people-3.png" alt=""></a></div>
                         <div class="section-8-item-desc">
                             <div class="section-8-item-title">Роман Тушев</div>
                             <div class="section-8-item-minititle">Bокал</div>
@@ -37,7 +37,7 @@
                         </div>
                     </div>
                     <div class="section-8-item cfix">
-                        <div class="section-8-item-img"><img src="images/item-people-4.png" alt=""></div>
+                    <div class="section-8-item-img"><a href="images/item-people-4-big.jpg" class="fancybox"><img src="images/item-people-4.png" alt=""></a></div>
                         <div class="section-8-item-desc">
                             <div class="section-8-item-title">Ринат Рысьмятов </div>
                             <div class="section-8-item-minititle">гитара</div>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="section-8-row cfix">
                     <div class="section-8-item cfix">
-                        <div class="section-8-item-img"><img src="images/item-people-5.png" alt=""></div>
+                        <div class="section-8-item-img"><a href="images/item-people-5-big.jpg" class="fancybox"><img src="images/item-people-5.png" alt=""></a></div>
                         <div class="section-8-item-desc">
                             <div class="section-8-item-title">Тимур Сапаров </div>
                             <div class="section-8-item-minititle">ударные</div>
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                     <div class="section-8-item cfix">
-                        <div class="section-8-item-img"><img src="images/item-people-6.png" alt=""></div>
+                        <div class="section-8-item-img"><a href="images/item-people-6-big.jpg" class="fancybox"><img src="images/item-people-6.png" alt=""></a></div>
                         <div class="section-8-item-desc">
                             <div class="section-8-item-title">Ленар Шамсетдинов </div>
                             <div class="section-8-item-minititle">клавишные инструменты,миди.</div>

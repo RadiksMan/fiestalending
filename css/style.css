@@ -26,6 +26,15 @@ font-style: italic;}
 .vfix-before:before{content: '';height:100%;width:0px;display:inline-block;vertical-align:middle;}
 
 .zHiddenBlock{position:absolute;left:-99999em;top:-99999em;}
+.box{}
+.boxHidden{
+visibility: hidden;}
+.fadeInUp{visibility: visible;}
+.delay-03s{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;animation-delay:.3s;}
+.delay-05s{-webkit-animation-delay:.5s;-moz-animation-delay:.5s;animation-delay:.5s;}
+.delay-08s{-webkit-animation-delay:.8s;-moz-animation-delay:.8s;animation-delay:.8s;}
+.delay-1100s{-webkit-animation-delay:1100ms;-moz-animation-delay:1100ms;animation-delay:1100ms;}
+.delay-1300s{-webkit-animation-delay:1300ms;-moz-animation-delay:1300ms;animation-delay:1300ms;}
 /* /helping adds*/
 
 /* base styles*/
@@ -64,7 +73,7 @@ p{margin:0;}
 
 /*Layout*/
 .main{}
-
+.main>section{overflow: hidden;}
 .footer_placeholder{}
 .footer{position:relative;bottom:0;left:0;width:100%;z-index:2;overflow:hidden;color:#646464;}
 /*End Layout*/
@@ -193,11 +202,12 @@ p{margin:0;}
 .section-8-title-text span{font-weight: bold;}
 .section-8-row{padding-bottom: 40px;}
 
-
-
-
-
-
+.section-9{background: url(../images/numbers-bg.jpg) center top no-repeat;  padding-top: 77px;}
+.section-9-item{float: left;width: 20%;}
+.section-9-row{padding-top: 88px;padding-bottom: 110px;}
+.section-9-item-desc{color: white;padding: 10px 5px 10px;text-align: center;margin: 0 auto;max-width: 155px;line-height: 17px;}
+.section-9-item-circle{text-align: center;min-height: 127px;}
+.section-9-item-circle input{font-size: 30px !important;height: 0px;background-color: transparent;border: none;}
 
 
 @media screen and (max-width:1920px){}
@@ -205,6 +215,7 @@ p{margin:0;}
 @media screen and (max-width:1366px){}
 @media screen and (max-width:1280px){}
 @media screen and (max-width:1024px){
+    .boxHidden{visibility: visible;}
     .mbox{width:100%;padding-left: 15px;padding-right: 15px;box-sizing:border-box;}
     .section-1-top-item span{font-size: 21px;}
     .section-7 .mbox{padding:0;}
@@ -230,7 +241,8 @@ p{margin:0;}
     .section-3-row-wrap {padding: 0px 10px;}
     .section-5-middle-item-wrap{float: none;width: 100%;padding-bottom: 30px;}
     .section-5{background-size: 100% 100%;-webkit-background-size: 100% 100%;background-color: #4B3B55;background-image: none;}
-
+    .section-9-item{float: none;width: 100%;}
+    .section-9{background-image: none;background-color:#3e4c8b;}
 
 }
 @media screen and (max-width:767px){

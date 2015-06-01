@@ -8,7 +8,7 @@
                 Мы бесплатно разучим и исполним для молодожёнов  любую песню для первого танца под сопровождение живой группы.
             </div>
             <div class="section-2-middle-row cfix">
-                <div class="section-2-middle-item text-center">
+                <div class="section-2-middle-item text-center box animated boxHidden delay-03s">
                     <div class="section-2-middle-item-img vfix-before">
                         <div class="section-2-middle-item-mini-circle vfix-before">
                             <span>1</span>
@@ -19,7 +19,7 @@
                         Вы звоните нам, и сообщаете о предполагаемой дате Вашей свадьбы
                     </div>
                 </div>
-                <div class="section-2-middle-item text-center">
+                <div class="section-2-middle-item text-center box animated boxHidden delay-05s">
                     <div class="section-2-middle-item-img vfix-before">
                         <div class="section-2-middle-item-mini-circle vfix-before">
                             <span>2</span>
@@ -30,7 +30,7 @@
                         Мы бронируем за вами дату на предстоящеесобытие
                     </div>
                 </div>
-                <div class="section-2-middle-item text-center">
+                <div class="section-2-middle-item text-center box animated boxHidden delay-08s">
                     <div class="section-2-middle-item-img vfix-before">
                         <div class="section-2-middle-item-mini-circle vfix-before">
                             <span>3</span>
@@ -41,7 +41,7 @@
                        Вы выбираете любимую песню и сообщаете нам. Согласовываем  детали
                     </div>
                 </div>
-                <div class="section-2-middle-item text-center">
+                <div class="section-2-middle-item text-center box animated boxHidden delay-1100s ">
                     <div class="section-2-middle-item-img vfix-before">
                         <div class="section-2-middle-item-mini-circle vfix-before">
                             <span>4</span>
@@ -52,7 +52,7 @@
                         Мы разучиваем ее и проводим с вами репетицию первого танца.
                     </div>
                 </div>
-                <div class="section-2-middle-item text-center">
+                <div class="section-2-middle-item text-center box animated boxHidden delay-1300s">
                     <div class="section-2-middle-item-img vfix-before">
                         <div class="section-2-middle-item-mini-circle vfix-before">
                             <span>5</span>
