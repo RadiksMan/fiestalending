@@ -39,6 +39,8 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" media="all" />
 	<script src="js/jquery-ui.js" type="text/javascript"></script>
 	
+	<script src="js/audio.min.js" type="text/javascript"></script>
+	
 	<script>
 		var mas = [250,300,3000,250,100];
 	</script>

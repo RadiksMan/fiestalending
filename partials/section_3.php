@@ -34,7 +34,31 @@
 
             <div class="section-3-audio">
                 <audio prealoder src="audio/"></audio>
-                ol>(li>a[data-src="audio/"])*^+.show-all-audio-list{ПОСМОТРЕТЬ ПОЛНЫЙ РЕПЕРТУАР}
+                <ol>
+                    <li><a href="#" class="show" data-src="audio/"></a></li>
+                    <li><a href="#" class="show" data-src="audio/"></a></li>
+                    <li><a href="#" class="show" data-src="audio/"></a></li>
+                    <li><a href="#" class="show" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                    <li><a href="#" data-src="audio/"></a></li>
+                </ol>
+                <div class="show-all-audio-list">ПОСМОТРЕТЬ ПОЛНЫЙ РЕПЕРТУАР</div>
             </div>
 
         </div>
