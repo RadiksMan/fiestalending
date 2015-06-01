@@ -17,18 +17,18 @@
 										<div class="circle-value vfix-before">
 											<span class="from">от</span>
 											<span class="circle-value-main">33</span>
-											<span class="to">т&#47;р</span>
+											<span class="to">т&#47;руб</span>
 										</div>
-										<div class="price-title">2 блока по 30 минут</div>
+										<div class="price-title">1 ЧАС ЖИВОЙ МУЗЫКИ ИЛИ 2 БЛОКА ПО 30 МИНУТ</div>
 										<div class="price-text">Группа находится на мероприятии не более 3 часов</div>
 									</div>
 									<div class="section-tenth-item-form-col">
 										<div class="circle-value vfix-before active">
 											<span class="from">от</span>
 											<span class="circle-value-main">40</span>
-											<span class="to">т&#47;р</span>
+											<span class="to">т&#47;руб</span>
 										</div>
-										<div class="price-title">3 блока по 30 минут</div>
+										<div class="price-title">1.5 ЧАСА ЖИВОЙ МУЗЫКИ  ИЛИ 3 БЛОКА ПО 30 МИНУТ</div>
 										<div class="price-text">Группа находится на мероприятии в течении всего вечера.</div>
 									</div>
 								</div>
@@ -52,20 +52,20 @@
 										<div class="circle-value vfix-before">
 											<span class="from">от</span>
 											<span class="circle-value-main">43</span>
-											<span class="to">т&#47;р</span>
+											<span class="to">т&#47;руб</span>
 										</div>
 									</div>
 									<div class="section-tenth-item-form-col">
 										<div class="circle-value vfix-before">
 											<span class="from">от</span>
 											<span class="circle-value-main">50</span>
-											<span class="to">т&#47;р</span>
+											<span class="to">т&#47;руб</span>
 										</div>
 									</div>
 								</div>
 								<div class="section-tenth-item-form-row cfix">
 									<div class="section-tenth-item-form-col no-float">
-										<div class="price-title">3 блока по 30 минут</div>
+										<div class="price-title">1.5 ЧАСА ЖИВОЙ МУЗЫКИ ИЛИ 3 БЛОКА ПО 30 МИНУТ</div>
 										<div class="price-text">Группа находится на мероприятии в течении всего вечера.</div>
 									</div>
 								</div>
@@ -89,14 +89,14 @@
 										<div class="circle-value vfix-before">
 											<span class="from">от</span>
 											<span class="circle-value-main">40</span>
-											<span class="to">т&#47;р</span>
+											<span class="to">т&#47;руб</span>
 										</div>
 									</div>
 									<div class="section-tenth-item-form-col">
 										<div class="circle-value vfix-before">
 											<span class="from">от</span>
 											<span class="circle-value-main">130</span>
-											<span class="to">т&#47;р</span>
+											<span class="to">т&#47;руб</span>
 										</div>
 									</div>
 								</div>

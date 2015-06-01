@@ -7,6 +7,9 @@
             <div class="section-2-text-top text-center">
                 Мы бесплатно разучим и исполним для молодожёнов  любую песню для первого танца под сопровождение живой группы.
             </div>
+            <div class="section-2-text-top-next text-center">
+                Как это происходит?
+            </div>
             <div class="section-2-middle-row cfix">
                 <div class="section-2-middle-item text-center box animated boxHidden delay-03s">
                     <div class="section-2-middle-item-img vfix-before">
