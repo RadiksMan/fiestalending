@@ -124,6 +124,22 @@ p{margin:0;}
 .section-3-row-wrap{padding:0px 100px;}
 .section-3-item-text{padding-top: 24px;line-height: 17px;font-size: 17px;}
 
+/*section_4*/
+.section-4>.mbox{max-width: 1200px;}
+.section-4{padding-top: 40px;padding-bottom: 70px;}
+.section-4-wrap{position: relative;}
+.section-4 .section-4-video{text-align: center;}
+.section-4 .section-4-video>div{width: 100% !important;height: 450px !important;}
+.vjs-poster{background-size: 100% 100%}
+.vjs-time-divider,.vjs-current-time-display,.vjs-duration-display{color: #7f2b8f;font-size: 14px;line-height: 28px;}
+.vjs-fullscreen-control{display: none;}
+.section-4 .section-title{position: absolute;left: 0;right: 0;top: 34px;z-index: 10;}
+
+.vjs-control-bar{}
+
+
+
+
 
 /*section_5*/
 .section-5{background: url(../images/suit-bg.jpg) center top no-repeat;padding-top: 59px;}
@@ -185,6 +201,10 @@ p{margin:0;}
 .section-7-leftside:hover .section-7-main-button-wrap{opacity: 1;visibility: visible;}
 
 .video-hrustalev video,.video-vasilev video{height: 100%;width: 100%;}
+
+.video-hrustalev>div,.video-vasilev>div{width: 100% !important;height: 450px !important;}
+.video-hrustalev,.video-vasilev{padding-bottom: 50px;}
+
 .section-7-main-button-wrap>a{display: block;}
 
 .fancybox-inner{height: auto !important;overflow-y:hidden !important;}
@@ -253,7 +273,8 @@ p{margin:0;}
     .section-6-item{float: none;width: 100%;text-align: center;}
     .section-6-button {padding-top: 25px;padding-bottom: 25px;}
     .section-6-bottom-row{padding: 0px;}
-}
+    .vjs-default-skin .vjs-volume-control {padding-right: 10px;}
+    .vjs-poster {background-size: cover;}
 
 @media screen and (max-width:666px){
     .section-1-top-item{float: none;width: 100%;}
@@ -267,11 +288,24 @@ p{margin:0;}
     .section-3-item{float: none;width: 100%;padding-bottom: 20px;}
     .section-3-item-text {padding-top: 8px}
     .section-7-main-button{font-size: 17px;padding: 15px 3px 15px 4px;text-align: center;}
+    .vjs-default-skin .vjs-control:before {font-size: 23px;}
+    .vjs-default-skin .vjs-control-bar {bottom: -37px;height: 24px;padding-top: 13px;}
+    .vjs-time-divider, .vjs-current-time-display, .vjs-duration-display {line-height: 15px;font-size: 12px;}
+    .vjs-default-skin .vjs-progress-control{top: 15px;}
+    .vjs-default-skin .vjs-volume-bar {margin: 5px auto 0;}
+    .vjs-default-skin .vjs-progress-control{width: 45%;}
+    .video-hrustalev,.video-vasilev{padding-bottom: 37px;}
+    .vjs-default-skin .vjs-big-play-button{width: 90px;height: 90px;}
+    .vjs-default-skin.vjs-big-play-centered .vjs-big-play-button {margin-left: -45px;}
 }
 @media screen and (max-width:479px){
     .section-1-middle-text p {font-size: 24px;line-height: 24px;}
     .section-1-middle-text-wrap {bottom: 35px;}
     .section-5-middle-item {height: 290px;width: 290px;}
+    .vjs-default-skin .vjs-duration,.vjs-time-divider,.vjs-current-time{display: none;}
+    .vjs-default-skin .vjs-progress-control{left: 36%}
+    .fancybox-wrap,.fancybox-inner{width: 100% !important;left: 0 !important;}
+    .fancybox-close {top: -21px !important;right: 0px !important;}
 }
 
 @media screen and (max-width:320px){

@@ -10,14 +10,16 @@
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/animate.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/video-js.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/dima.css" media="all" />
 	<script src="js/jquery-1.10.0.min.js" type="text/javascript"></script>
 
 	<script src="js/selectivizr-min.js" type="text/javascript"></script>
 	<script src="js/jquery.knob.js" type="text/javascript"></script>
-	<script src="js/waypoint.js" type="text/javascript"></script>
+    <script src="js/waypoint.js" type="text/javascript"></script>
+	<script src="js/video.js" type="text/javascript"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/jquery.znice.css" media="all" />
 	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
@@ -42,6 +44,10 @@
 	<script src="js/scr.js" type="text/javascript"></script>
 	<script src="js/dima.js" type="text/javascript"></script>
 
+    <script type="text/javascript">
+      document.createElement('video');document.createElement('audio');document.createElement('track');
+      videojs.options.flash.swf = "video/video-js.swf"
+    </script>
 	<!--[if lt IE 9]>
 		<script>
 		document.createElement('header');
