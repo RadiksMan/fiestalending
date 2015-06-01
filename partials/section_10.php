@@ -108,7 +108,9 @@
 										<option>town3</option>
 									</select>
 								</div>
-								<div class="section-tenth-item-form-text">Расчет цены зависит от расстояния до города</div>
+								<div class="price-title text-center">1.5 ЧАСА ЖИВОЙ МУЗЫКИ ИЛИ 3 БЛОКА
+ПО 30 МИНУ</div>
+								<div class="section-tenth-item-form-text"><p>Группа находится на мероприятии в течении всего вечера.</p>Расчет цены зависит от расстояния до города</div>
 								<div class="section-tenth-item-form-submit">
 									<input type="submit" value="Заказать">
 								</div>

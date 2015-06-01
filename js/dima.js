@@ -63,13 +63,25 @@ function toggleSlide(){
 	});
 }
 
+function showHideHeight(){
+	var heightBasic=0;
+	if($('.show-all-audio-list').is('.active')){
+		$('.audio-list li').each(function(){
+			heightBasic+=$(this).height()+parseInt($(this).css('margin-bottom'));
+		});
+		$('.audio-list').height(heightBasic);
+	}
+	else{
+		$('.audio-list li.show').each(function(){
+			heightBasic+=$(this).height()+parseInt($(this).css('margin-bottom'));
+		});
+		$('.audio-list').height(heightBasic);
+	}
+}
+
 function showHideAudioList(){
 
-	var heightBasic=0;
-	$('.audio-list li.show').each(function(){
-		heightBasic+=$(this).height()+parseInt($(this).css('margin-bottom'));
-	});
-	$('.audio-list').height(heightBasic);
+	showHideHeight();
 
 	$(document).on('click','.show-all-audio-list',function(){
 		if($(this).is('.active')){
@@ -94,13 +106,18 @@ function showHideAudioList(){
 function audioInit(){
 
 	var a = audiojs.createAll({
-      /*trackEnded: function() {
-        var next = $('ol li.playing').next();
-        if (!next.length) next = $('ol li').first();
-        next.addClass('playing').siblings().removeClass('playing');
-        audio.load($('a', next).attr('data-src'));
-        audio.play();
-      }*/
+      	/*trackEnded: function() {
+	        var next = $('.audio-list ol li.playing').next();
+	        if (!next.length) next = $('.audio-list ol li').first();
+	        next.addClass('playing').siblings().removeClass('playing');
+	        audio.load($('a', next).attr('data-src'));
+	        audio.play();
+      	},*/
+      	updatePlayhead: function(percent) {
+      		var percent=percent*100;
+      		$('.progress').css({'width':percent+'%'});
+      		$('.playing  .audio-list-button .playing-line').css({'height':percent+'%'});
+      	}
     });
     
     // Load in the first track
@@ -112,6 +129,7 @@ function audioInit(){
     // Load in a track on click
     $(document).on('click','.audio-list ol li',function(e) {
       e.preventDefault();
+      $('.playing  .audio-list-button .playing-line').removeAttr('style');
       $(this).addClass('playing').siblings().removeClass('playing');
       audio.load($('a', this).attr('data-src'));
       audio.play();
@@ -119,6 +137,7 @@ function audioInit(){
 
     $(document).on('click','.play-pause .prev, .play-pause .next',function(){
     	$('.audiojs').removeClass('error playing');
+    	$('.playing  .audio-list-button .playing-line').removeAttr('style');
     	var index = $('.audio-list ol li.playing').index();
     	if($(this).is('.prev')){
     		index-=1;
@@ -191,5 +210,7 @@ $(window).resize(function(){
 		$('.section-tenth-item-body').removeAttr('style');
 		$('.section-tenth-item-title').removeClass('active');
 	}
+
+	showHideHeight();
 
 });
