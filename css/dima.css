@@ -120,6 +120,49 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
 
 /* /section-tenth */
 
+/* section-third audio */
+
+.section-3-audio{max-width: 620px;margin:0 auto 20px auto;padding-top: 20px;}
+.audio-wrap{margin-bottom: 20px;}
+.show-all-audio-list{text-align: center;font-weight: 700;color:#7f2b8f;font-size: 30px;line-height: 60px;background-color:#f9c311;border-radius: 10px;cursor: pointer;}
+.show-all-audio-list:hover{background-color: #dfab00;}
+.audio-list{transition:all 300ms ease;-webkit-transition:all 500ms ease;-moz-transition:all 500ms ease;-khtml-transition:all 500ms ease;overflow: hidden;}
+.audio-list li{margin-bottom: 10px;border-radius: 15px;}
+.audio-list li.playing{background-color: #e7e7e7;}
+.audio-list li.show, .audio-list li.active{display: block;}
+.audio-list-button{width: 57px;height: 59px;box-sizing:border-box;border:1px solid #7f2b8f;border-radius: 15px;color:#f9c311;font-size: 36px;font-weight: 700;text-align: center;position: relative;display: inline-block;margin-right: 5px;overflow: hidden;vertical-align: middle;background-color: #fff;}
+.audio-list-button .num{display: inline-block;margin: 9px 5px 0 0;}
+.playing .audio-list-button{font-size: 0;}
+.playing  .audio-list-button:before{content:'';display:block;position: absolute;width: 0;height: 0;border-width: 19px 22px;border-style:solid;border-color: transparent transparent transparent #7f2b8f;left: 50%;top:50%;transform:translate(-20%, -50%);-webkit-transform:translate(-20%, -50%);-moz-transform:translate(-20%, -50%);-khtml-transform:translate(-20%, -50%);z-index: 2;}
+.playing-line{display: none;}
+.playing  .audio-list-button .playing-line{position:absolute;display: block;left: 0;right: 0;bottom: 0;height: 5%;background-color: #f9c311;z-index: 1;}
+.audio-list a{font-size:18px;color:#7f2b8f;line-height: 22px;display: inline-block;vertical-align: middle;}
+.audio-wrap-icon{float: left;width: 100%;height: 59px;max-width: 10%;}
+.audio-wrap-main{float: right;height: 59px;box-sizing:border-box;border:1px solid #7f2b8f;border-radius: 15px;max-width: 85%;width: 100%;}
+
+.audio-wrap-item{float: left;width: 100%;max-width: 80%;}
+.audio-wrap-sound{float: right;width: 100%;max-width: 15%;height: 57px;padding-top: 19px;}
+.audio-wrap-item .audiojs{width: 100%;background:none;height: 57px;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;-khtml-box-shadow:none;}
+.audio-wrap-item .audiojs .time{display: none;}
+.audio-wrap-item .audiojs .play-pause{box-sizing:border-box;height: 59px;width: 25%;border-right:0;padding: 21px 0 0 5%;}
+.audio-wrap-item .audiojs .scrubber{width: 70%;margin:10px 0 0 5%;border-top: none;max-width: 356px;background-color: transparent;height: 44px;}
+.audio-wrap-item .audiojs .loaded{background-image:url(../images/scrubber.png);background-size: 356px 100%;height: 44px;background-color: transparent;max-width: 356px;}
+.audio-wrap-item .audiojs .progress{height: 44px;background-color: transparent;background-image:url(../images/scrubber-hover.png);background-size: 356px 100%;}
+.audio-wrap-item .audiojs p{vertical-align: middle;width: 19px;height: 22px;box-sizing:border-box;}
+.audio-wrap-item .audiojs p.prev, .audio-wrap-item .audiojs p.next{display: inline-block;background-image:url(../images/audio-prev-next.png);width: 18px;height: 11px;}
+.audio-wrap-item .audiojs p.prev{background-position: left top;margin-right: 4%;}
+.audio-wrap-item .audiojs p.next{background-position: right top;margin-left: 2%;}
+.audio-wrap-item .audiojs p.play{background-image:url(../images/audio-play-button.png);}
+.audio-wrap-item .audiojs p.pause{border-width: 0 5px;border-style:solid;border-color:#7f2b8f;}
+.audio-wrap-sound-icon{width: 18px;height: 22px;background-image: url(../images/audio-wrap-sound-icon.png);display: inline-block;margin-right: 5%;cursor: pointer;vertical-align: middle;}
+.audio-wrap-sound-icon.active{background-image: url(../images/audio-wrap-sound-icon-active.png);}
+.audio-wrap-line{position: relative;width: 42px;background-color: #d6d6d6;height: 4px;border-radius: 5px;overflow: hidden;cursor: pointer;display: inline-block;vertical-align: middle;}
+.audio-wrap-line-hover{position: absolute;left: 0;top: 0;bottom: 0;background-color: #f9c311;display: block;width: 100%;}
+
+
+
+/* /section-third audio */
+
 @media screen and (max-width:1920px){}
 @media screen and (max-width:1600px){}
 @media screen and (max-width:1366px){}
