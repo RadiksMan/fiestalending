@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/video-js.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/dima.css" media="all" />
+<!-- 	<link rel="stylesheet" type="text/css" href="css/dima.css" media="all" /> -->
 	<script src="js/jquery-1.10.0.min.js" type="text/javascript"></script>
 
 	<script src="js/selectivizr-min.js" type="text/javascript"></script>
@@ -40,15 +40,15 @@
 
 	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" media="all" />
 	<script src="js/jquery-ui.js" type="text/javascript"></script>
-	
+
 	<script src="js/audio.min.js" type="text/javascript"></script>
-	
+
 	<script>
 		var mas = [250,300,3000,250,100];
 	</script>
 
 	<script src="js/scr.js" type="text/javascript"></script>
-	<script src="js/dima.js" type="text/javascript"></script>
+	<!--<script src="js/dima.js" type="text/javascript"></script>-->
 
     <script type="text/javascript">
       document.createElement('video');document.createElement('audio');document.createElement('track');
