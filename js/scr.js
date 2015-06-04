@@ -126,9 +126,25 @@ function datepickerInit(){
         yearSuffix: ''
     };
 
+    var datePickerTimer = null;
+
 	$('.datepicker').datepicker($.extend({
 			onSelect: function(dateText, inst) {
 				$('.choseDate').val(dateText);
+				setTimeout(
+					function(){
+						searchInDatepicker();
+						if($('.ui-datepicker-current-day').is('.no-concert') || $('.ui-datepicker-current-day').is('.maybe-concert')){
+							$('.ui-datepicker-current-day .sorry-date-text').addClass('active');
+							clearTimeout(datePickerTimer);
+							datePickerTimer = setTimeout(
+								function(){
+									$('.ui-datepicker-current-day .sorry-date-text').removeClass('active');
+								},
+								2000);
+						}
+					},
+					0);
 			}
 	    },
 	     $.datepicker.regional['ru']
@@ -301,6 +317,52 @@ function showHideTextAudioList(){
 	});
 };
 
+function searchInDatepicker(){
+	var error = $('<div class="sorry-date-text">Извините дата занята</div>');
+	var callUs = $('<div class="sorry-date-text">Перезвоните нам</div>')
+
+	var mounth = $('.ui-datepicker-calendar tr:nth-child(2) td').data('month');
+	//console.log(mounth);
+	var indexElem = null;
+
+	for(var i=0;i<calendar.length;i++){
+		if(mounth == calendar[i].mounthNum){
+			indexElem = i;
+			break;
+		}
+	}
+
+	if(indexElem!= null){
+		for(var i=0;i<calendar[indexElem].mounthDays.length;i++){
+			var date = calendar[indexElem].mounthDays[i].dayNum;
+
+			if(calendar[indexElem].mounthDays[i].dayType=='sorry'){
+				$('.ui-datepicker-calendar td:not(.ui-state-disabled)').eq(date-1).addClass('no-concert').prepend(error);
+			}
+			else if(calendar[indexElem].mounthDays[i].dayType=='maybe'){
+				$('.ui-datepicker-calendar td:not(.ui-state-disabled)').eq(date-1).addClass('maybe-concert').prepend(callUs);
+			}
+		}
+	}
+
+}
+
+function sinhTableWithCalendar(){
+
+	var timerId = null;
+
+	searchInDatepicker();
+
+	$(document).on('click','.ui-datepicker-next, .ui-datepicker-prev',function(){
+		clearTimeout(timerId);
+		timerId = setTimeout(
+			function(){
+				searchInDatepicker();
+			},300									
+		);
+	});
+};
+
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
@@ -328,6 +390,8 @@ $(document).ready(function() {
 	//showHideAudioList();
 
 	showHideTextAudioList();
+
+	sinhTableWithCalendar();
 
 });
 

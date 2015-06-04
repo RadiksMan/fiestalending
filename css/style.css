@@ -299,6 +299,14 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
 .section-twelfth-table-wrap table th:nth-child(1){width: 22%;}
 .section-twelfth-table-wrap table th:nth-child(2){width: 21%;}
 
+.sorry-date-text{position: absolute;top: 100%;width: 175px;background-color: orange;font-size: 14px;color:#fff;line-height: 24px;padding: 0 5px;border-radius:	15px;display: none;text-align: center;transform:translateX(-40%);-webkit-transform:translateX(-40%);-moz-transform:translateX(-40%);-khtml-transform:translateX(-40%);text-align: center;}
+.sorry-date-text.active{display: block;}
+.ui-datepicker td.no-concert, .ui-datepicker td.maybe-concert{position: relative;}
+.no-concert .ui-state-default, .ui-widget-content .no-concert .ui-state-default{color:red;}
+.no-concert .ui-state-active, .ui-widget-content .no-concert .ui-state-active{color:#fff;background-color: red;}
+.maybe-concert.ui-state-default, .ui-widget-content .maybe-concert .ui-state-default{color:orange;}
+.maybe-concert .ui-state-active, .ui-widget-content .maybe-concert .ui-state-active{background-color: orange;color:#fff;}
+
 /* /section-twelfth */
 
 /* section-elewenth */

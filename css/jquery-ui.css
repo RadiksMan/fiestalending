@@ -351,7 +351,7 @@
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
-	background-color: #e57825;
+	background-color: green;/* green */
 	color: #fff;
 }
 .ui-state-active a,

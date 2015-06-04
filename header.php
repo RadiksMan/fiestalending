@@ -54,6 +54,40 @@
       document.createElement('video');document.createElement('audio');document.createElement('track');
       videojs.options.flash.swf = "video/video-js.swf"
     </script>
+
+    <script>
+    	var calendar = [
+    			{
+    				mounthNum:4,
+    				mounthDays:[
+	    				{
+	    					dayNum:10,
+	    					dayType:'sorry'
+	    				},
+	    				{
+	    					dayNum:12,
+	    					dayType:'maybe'
+	    				}
+	    			]
+    			
+    			}
+    		,
+    		
+    			{
+    				mounthNum:5,
+	    			mounthDays:[
+	    				{
+	    					dayNum:14,
+	    					dayType:'maybe'
+	    				},
+	    				{
+	    					dayNum:18,
+	    					dayType:'sorry'
+	    				}
+	    			]
+	    		}
+    		]
+    </script>
 	<!--[if lt IE 9]>
 		<script>
 		document.createElement('header');
