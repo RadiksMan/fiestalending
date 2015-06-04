@@ -8,7 +8,7 @@
                 <div class="section-1-top-item">
                     <div class="section-1-logo">
                         <a href="#">
-                            <img src="images/header-logo.png" alt="">
+                            <img src="images/header-logo.svg" alt="">
                         </a>
                     </div>
                 </div>

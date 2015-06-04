@@ -95,6 +95,7 @@ p{margin:0;}
 .section-1-middle-man{}
 .new-bg{}
 .section-1 .mbox{  position: absolute;top: 0;left: 50%;-webkit-transform: translate(-50%,0);-moz-transform: translate(-50%,0);transform: translate(-50%,0);height: 100%;}
+.section-1-logo img{width: 180px;}
 
 /*section-2*/
 .section-title{}

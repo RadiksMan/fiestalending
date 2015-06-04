@@ -44,7 +44,13 @@
                                 </div>
                             </div>
                         </a>
-
+                        <a href="images/suit-item-2-fancybox-img-2.jpg" rel="gallery2" class="fancybox"></a>
+                        <a href="images/suit-item-2-fancybox-img-3.jpg" rel="gallery2" class="fancybox"></a>
+                        <a href="images/suit-item-2-fancybox-img-4.jpg" rel="gallery2" class="fancybox"></a>
+                        <a href="images/suit-item-2-fancybox-img-5.jpg" rel="gallery2" class="fancybox"></a>
+                        <a href="images/suit-item-2-fancybox-img-6.jpg" rel="gallery2" class="fancybox"></a>
+                        <a href="images/suit-item-2-fancybox-img-7.jpg" rel="gallery2" class="fancybox"></a>
+                        <a href="images/suit-item-2-fancybox-img-8.jpg" rel="gallery2" class="fancybox"></a>
                     </div>
                     <div class="section-5-middle-item-wrap">
                         <a href="images/suit-item-3-fansybox.jpg" class="fancybox" rel="gallery3">
