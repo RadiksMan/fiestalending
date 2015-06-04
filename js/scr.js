@@ -344,8 +344,7 @@ function searchInDatepicker(){
 			}
 		}
 	}
-
-}
+};
 
 function sinhTableWithCalendar(){
 
@@ -363,6 +362,18 @@ function sinhTableWithCalendar(){
 	});
 };
 
+function addTableElems(){
+
+	for(var i=0;i<table.length;i++){
+		var date = '<tr><td>'+table[i].dayNum+' '+table[i].mounthName+'</td>';
+		var time = '<td>'+table[i].times+'</td>';
+		var town = '<td>'+table[i].town+'</td>';
+		var place = '<td>'+table[i].place+'</td></tr>';
+		var tr = date+time+town+place;
+		$('.section-twelfth-table-wrap tbody').append(tr);
+	}
+
+};
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
@@ -392,6 +403,7 @@ $(document).ready(function() {
 	showHideTextAudioList();
 
 	sinhTableWithCalendar();
+	addTableElems();
 
 });
 

@@ -18,42 +18,7 @@
 							<th>Город</th>
 							<th>Место</th>
 						</tr>
-						<tr>
-							<td class="search-in-datepicker" data-day="8" data-mounth="4">08 Мая</td>
-							<td>21:00</td>
-							<td>Казань</td>
-							<td>Ресторан Maximillians</td>
-						</tr>
-						<tr>
-							<td class="search-in-datepicker" data-day="8" data-mounth="4">08 Мая</td>
-							<td>21:00</td>
-							<td>Казань</td>
-							<td>Ресторан Trattoria</td>
-						</tr>
-						<tr>
-							<td class="search-in-datepicker" data-day="10" data-mounth="4">10 Мая</td>
-							<td>21:00</td>
-							<td>Казань</td>
-							<td>Ресторан Maximillians</td>
-						</tr>
-						<tr>
-							<td class="search-in-datepicker" data-day="12" data-mounth="4">12 Мая</td>
-							<td>20:30</td>
-							<td>Казань</td>
-							<td>Клуб Extra lounge</td>
-						</tr>
-						<tr>
-							<td class="search-in-datepicker" data-day="10" data-mounth="5">10 Июня</td>
-							<td>20:00</td>
-							<td>Казань</td>
-							<td>Ультра клаб Teatro</td>
-						</tr>
-						<tr>
-							<td class="search-in-datepicker" data-day="10" data-mounth="5">10 Июня</td>
-							<td>20:00</td>
-							<td>Уфа</td>
-							<td>Клуб Sahar</td>
-						</tr>
+						
 					</table>
 				</div>
 			</div>

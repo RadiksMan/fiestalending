@@ -56,6 +56,7 @@
     </script>
 
     <script>
+
     	var calendar = [
     			{
     				mounthNum:4,
@@ -87,6 +88,52 @@
 	    			]
 	    		}
     		]
+
+    	var table = [
+    		{	
+    			dayNum:'08',
+    			mounthName:'Мая',
+    			times:'21:00',
+    			town:'Казань',
+    			place:'Ресторан Maximillians'
+    		},
+    		{	
+    			dayNum:'08',
+    			mounthName:'Мая',
+    			times:'21:00',
+    			town:'Казань',
+    			place:'Ресторан Trattoria'
+    		},
+    		{	
+    			dayNum:'10',
+    			mounthName:'Мая',
+    			times:'21:00',
+    			town:'Казань',
+    			place:'Ресторан Maximillians'
+    		},
+    		{	
+    			dayNum:'12',
+    			mounthName:'Мая',
+    			times:'20:30',
+    			town:'Казань',
+    			place:'Клуб Extra lounge'
+    		},
+    		{	
+    			dayNum:'10',
+    			mounthName:'Июня',
+    			times:'20:00',
+    			town:'Казань',
+    			place:'Ультра клаб Teatro'
+    		},
+    		{	
+    			dayNum:'10',
+    			mounthName:'Июня',
+    			times:'20:00',
+    			town:'Уфа',
+    			place:'Клуб Sahar'
+    		},
+
+    	]
     </script>
 	<!--[if lt IE 9]>
 		<script>
