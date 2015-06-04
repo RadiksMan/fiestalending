@@ -7,9 +7,11 @@
             <div class="section-5-middle">
                 <div class="section-5-middle-row cfix">
                     <div class="section-5-middle-item-wrap">
-                        <a href="images/suit-item-1-fancybox.jpg" class="fancybox">
+                        <a href="images/suit-item-1-fancybox.jpg" rel="gallery1" class="fancybox">
                             <div class="section-5-middle-item">
-                                <img src="images/suit-item-1.jpg"alt="">
+                                <div class="section-5-middle-item-img">
+                                    <img src="images/suit-item-1-fancybox.jpg"alt="">
+                                </div>
                                 <div class="section-5-middle-item-button">
                                     <div class="section-5-middle-item-button-wrap">
                                         <span>СМОТРЕТЬ</span>
@@ -20,11 +22,18 @@
                                 </div>
                             </div>
                         </a>
+                        <a href="images/suit-item-1-fancybox-img-2.jpg" rel="gallery1" class="fancybox"></a>
+                        <a href="images/suit-item-1-fancybox-img-3.jpg" rel="gallery1" class="fancybox"></a>
+                        <a href="images/suit-item-1-fancybox-img-4.jpg" rel="gallery1" class="fancybox"></a>
+                        <a href="images/suit-item-1-fancybox-img-5.jpg" rel="gallery1" class="fancybox"></a>
+                        <a href="images/suit-item-1-fancybox-img-6.jpg" rel="gallery1" class="fancybox"></a>
                     </div>
                     <div class="section-5-middle-item-wrap">
-                        <a href="images/suit-item-2-fansybox.jpg" class="fancybox">
+                        <a href="images/suit-item-2-fansybox.jpg" class="fancybox" rel="gallery2">
                             <div class="section-5-middle-item">
-                                <img src="images/suit-item-2.jpg"alt="">
+                                <div class="section-5-middle-item-img">
+                                    <img src="images/suit-item-2-fansybox.jpg"alt="">
+                                </div>
                                 <div class="section-5-middle-item-button">
                                     <div class="section-5-middle-item-button-wrap">
                                         <span>СМОТРЕТЬ</span>
@@ -35,11 +44,14 @@
                                 </div>
                             </div>
                         </a>
+
                     </div>
                     <div class="section-5-middle-item-wrap">
-                        <a href="images/suit-item-3-fansybox.jpg" class="fancybox">
+                        <a href="images/suit-item-3-fansybox.jpg" class="fancybox" rel="gallery3">
                             <div class="section-5-middle-item">
-                                <img src="images/suit-item-3.jpg"alt="">
+                                <div class="section-5-middle-item-img">
+                                    <img src="images/suit-item-3-fansybox.jpg"alt="">
+                                </div>
                                 <div class="section-5-middle-item-button">
                                     <div class="section-5-middle-item-button-wrap">
                                         <span>СМОТРЕТЬ</span>
@@ -50,6 +62,14 @@
                                 </div>
                             </div>
                         </a>
+                        <a href="images/suit-item-3-fancybox-img-2.jpg" rel="gallery3" class="fancybox"></a>
+                        <a href="images/suit-item-3-fancybox-img-3.jpg" rel="gallery3" class="fancybox"></a>
+                        <a href="images/suit-item-3-fancybox-img-4.jpg" rel="gallery3" class="fancybox"></a>
+                        <a href="images/suit-item-3-fancybox-img-5.jpg" rel="gallery3" class="fancybox"></a>
+                        <a href="images/suit-item-3-fancybox-img-6.jpg" rel="gallery3" class="fancybox"></a>
+                        <a href="images/suit-item-3-fancybox-img-7.jpg" rel="gallery3" class="fancybox"></a>
+                        <a href="images/suit-item-3-fancybox-img-8.jpg" rel="gallery3" class="fancybox"></a>
+                        <a href="images/suit-item-3-fancybox-img-9.jpg" rel="gallery3" class="fancybox"></a>
                     </div>
                 </div>
             </div>

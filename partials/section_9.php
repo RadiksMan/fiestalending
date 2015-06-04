@@ -15,7 +15,7 @@
                     <div class="section-9-item-circle">
                         <input type="text" value="250" class="canvas-cirlce">
                     </div>
-                    <div class="section-9-item-desc">Выступлений на корпоративных мероприятий </div>
+                    <div class="section-9-item-desc">Выступлений на корпоративных мероприятиях </div>
                 </div>
                 <div class="section-9-item">
                     <div class="section-9-item-circle">
