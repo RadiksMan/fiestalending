@@ -41,7 +41,7 @@
                         <div class="section-8-item-desc">
                             <div class="section-8-item-title">Ринат Рысьмятов </div>
                             <div class="section-8-item-minititle">гитара</div>
-                            <div class="section-8-item-text section-8-item-text-fix">Придерживаюсь понятия «Гитарист не может ничего испортить.Он экспериментирует с гаммами». </div>
+                            <div class="section-8-item-text section-8-item-text-fix">Придерживаюсь понятия «Гитарист не может ничего испортить. Он экспериментирует с гаммами». </div>
                         </div>
                     </div>
                 </div>

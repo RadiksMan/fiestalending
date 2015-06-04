@@ -19,7 +19,7 @@
                         <img src="images/special-item-img-1.png" alt="">
                     </div>
                     <div class="section-2-middle-item-description">
-                        Вы звоните нам, и сообщаете о предполагаемой дате Вашей свадьбы
+                         Вы звоните нам, и сообщаете о предполагаемой дате Вашей свадьбы.
                     </div>
                 </div>
                 <div class="section-2-middle-item text-center box animated boxHidden delay-05s">
@@ -30,7 +30,7 @@
                         <img src="images/special-item-img-2.png" alt="">
                     </div>
                     <div class="section-2-middle-item-description">
-                        Мы бронируем за вами дату на предстоящеесобытие
+                        Мы бронируем за вами дату на предстоящее событие.
                     </div>
                 </div>
                 <div class="section-2-middle-item text-center box animated boxHidden delay-08s">
@@ -41,7 +41,7 @@
                         <img src="images/special-item-img-3.png" alt="">
                     </div>
                     <div class="section-2-middle-item-description">
-                       Вы выбираете любимую песню и сообщаете нам. Согласовываем  детали
+                        Вы выбираете любимую песню и сообщаете нам. Согласовываем детали.
                     </div>
                 </div>
                 <div class="section-2-middle-item text-center box animated boxHidden delay-1100s ">
@@ -52,7 +52,7 @@
                         <img src="images/special-item-img-4.png" alt="">
                     </div>
                     <div class="section-2-middle-item-description">
-                        Мы разучиваем ее и проводим с вами репетицию первого танца.
+                        Мы разучиваем ее и проводим с Вами репетицию первого танца.
                     </div>
                 </div>
                 <div class="section-2-middle-item text-center box animated boxHidden delay-1300s">
@@ -63,7 +63,7 @@
                         <img src="images/special-item-img-5.png" alt="">
                     </div>
                     <div class="section-2-middle-item-description">
-                        Вы получаете незабываемый танец молодоженов под живое сопровождение группы Fiesta
+                        Вы получаете незабываемый танец молодоженов, под живое выступление группы Fiesta.
                     </div>
                 </div>
             </div>

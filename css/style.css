@@ -86,7 +86,7 @@ p{margin:0;}
 .section-1-top-item{float: left;width: 25%;text-align: center;}
 .section-1-top-item span{display: inline-block;vertical-align: middle;text-transform: uppercase;color: #fff;font-size: 25px;padding-top: 15px;font-weight: bold;}
 .section-1-middle{}
-.section-1-middle-text-left{position: absolute;top: 57%;left: 6%;}
+.section-1-middle-text-left{  padding-bottom: 5px;padding-left: 56px;}
 .section-1-middle-text-right{position: absolute;  right: 68px;  top: 48%;}
 .section-1-middle-text-left span{font-size: 60px;color: #fbecbb;font-family: 'HeliosCondBlack';font-style: italic;}
 .section-1-middle-text-wrap{position: absolute;bottom: 20px;left: 14px;}
@@ -95,6 +95,7 @@ p{margin:0;}
 .section-1-middle-man{}
 .new-bg{}
 .section-1 .mbox{  position: absolute;top: 0;left: 50%;-webkit-transform: translate(-50%,0);-moz-transform: translate(-50%,0);transform: translate(-50%,0);height: 100%;}
+.section-1-logo img{width: 180px;}
 
 /*section-2*/
 .section-title{}
@@ -160,11 +161,12 @@ p{margin:0;}
 .section-5-middle-item-button-active{position: absolute;top: 50%;left: 50%;transition:opacity ease 300ms;margin-top:-76px;margin-left:-76px;opacity:0;}
 .section-5-middle-item:hover .section-5-middle-item-button-active{opacity: 1;visibility: visible;}
 .section-5-middle-item:hover .section-5-middle-item-button{opacity: 0;visibility: hidden;}
-.section-5-middle-item img{width: 100%;height: 100%;-webkit-filter: grayscale(85%);filter: grayscale(85%);-moz-filter: grayscale(85%);}
-.section-5-middle-item:hover img{-webkit-filter: grayscale(0%);filter: grayscale(0%);-moz-filter: grayscale(0%);}
-
+.section-5-middle-item .section-5-middle-item-img{height: 100%;}
+.section-5-middle-item .section-5-middle-item-img img{-webkit-filter:  blur(1px);filter:  blur(1px);-moz-filter:  blur(1px);  width: 156%;height: 100%;-webkit-filter: blur(1px);filter: blur(1px);-moz-filter: blur(1px);max-width: 147%;max-height: 106%;transform: translate(-14%,0%);-webkit-transform: translate(-14%,0%);-moz-transform: translate(-14%,0%);}
+.section-5-middle-item:hover img{-webkit-filter:  blur(0px);filter:  blur(0px);-moz-filter:  blur(0px);}
 .section-5-middle{padding-top: 57px;}
-
+/*.section-5-middle-item-wrap>a{display: none;}
+.section-5-middle-item-wrap>a:first-child{display: block;}*/
 
 .section-6-wrap{padding-top: 60px;padding-bottom: 53px;}
 .section-6-button a,.section-6-button span{font-size: 24px;color: #762a85;padding:0 23px;border-radius: 25px;border:1px solid #762a85;text-transform: uppercase;height: 55px;display: table-cell;text-decoration: none;text-align: center;vertical-align: middle;transition:all ease 300ms;white-space:nowrap;}
@@ -345,11 +347,11 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
 .section-tenth-item-body{border:1px solid #7f2b8f;border-radius: 15px;padding: 22px 10px 90px 10px;position: relative;min-height: 405px;box-sizing:border-box;}
 .section-tenth-item-form-col{width: 50%;float: left;margin: 0 auto;text-align: center;}
 .section-tenth-item-form-col.no-float{float: none;}
-.circle-value{display: inline-block;width: 69px;height: 69px;color:#e57825;font-size: 30px;font-weight: 700;text-align: center;box-sizing:border-box;border:2px solid #e57825;border-radius: 50%;position: relative;margin-bottom: 24px;}
+.circle-value{display: inline-block;width: 62px;height: 62px;color:#e57825;font-size: 30px;font-weight: 700;text-align: center;box-sizing:border-box;border:2px solid #e57825;border-radius: 50%;position: relative;margin-bottom: 24px;}
 .circle-value.active{color:#fff;border:none;background-image:url(../images/price-circle-active.png);background-repeat:no-repeat;background-position: center;}
-.circle-value-main{display: inline-block;margin: 17px 0 0 -5px;}
-.from{display: block;position: absolute;bottom: 0;right: 100%;font-size:14px;color:#221f1f;text-transform: uppercase;}
-.to{display: block;position: absolute;top: 0;left: 100%;font-size:12px;color:#221f1f;text-transform: uppercase;width: 22px;}
+.circle-value-main{display: inline-block;margin: 14px 0 0 -9px;}
+.from{display: block;position: absolute;bottom: 37%;right: 110%;font-size:12px;color:#221f1f;text-transform: uppercase;}
+.to{display: block;position: absolute;top: 33%;left: 102%;font-size:12px;color:#221f1f;text-transform: uppercase;width: 22px;}
 .price-title{font-size: 15px;color: #221f1f;text-transform: uppercase;margin-bottom: 32px;}
 .price-text{font-size: 15px;color: #221f1f;}
 

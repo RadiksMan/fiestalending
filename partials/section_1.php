@@ -8,7 +8,7 @@
                 <div class="section-1-top-item">
                     <div class="section-1-logo">
                         <a href="#">
-                            <img src="images/header-logo.png" alt="">
+                            <img src="images/header-logo.svg" alt="">
                         </a>
                     </div>
                 </div>
@@ -29,8 +29,9 @@
                 <div class="section-1-middle-text-right">
                     <img src="images/header-bottom-text.png" alt="">
                 </div>
-                <div class="section-1-middle-text-left"><span>АКЦИЯ!</span></div>
+
                 <div class="section-1-middle-text-wrap">
+                    <div class="section-1-middle-text-left"><span>АКЦИЯ!</span></div>
                     <div class="section-1-middle-text">
                         <p>Пригласи группу Fiesta на свадьбу до 15 июня, и получи в подарок первый танец по 100% живой звук совершенно бесплатно!!! </p>
                     </div>
