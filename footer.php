@@ -10,7 +10,7 @@
 							<span class="footer-icon-wrap">
 								<img src="images/footer-item-img-1.png" alt="" />
 							</span>
-							<span class="footer-text">+79673667736</span>
+							<span class="footer-text">+7(967)366-77-36</span>
 						</a>
 					</div>
 					<div class="footer-col">

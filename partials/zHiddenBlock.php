@@ -21,11 +21,4 @@
               </video>
        </div>
     </div>
-
-
-    <div class="section-5-middle-item-wrap-1-block-img">
-        <a href="suit-item-1-fancybox-img-2.jpg" rel="gallery1" class="fancybox">
-          <img src="image/suit-item-1-fancybox-img-2.jpg" alt="">
-        </a>
-    </div>
 </div>

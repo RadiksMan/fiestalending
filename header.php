@@ -13,7 +13,6 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/video-js.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-<!-- 	<link rel="stylesheet" type="text/css" href="css/dima.css" media="all" /> -->
 	<script src="js/jquery-1.10.0.min.js" type="text/javascript"></script>
 
 	<script src="js/selectivizr-min.js" type="text/javascript"></script>
@@ -48,7 +47,6 @@
 	</script>
 
 	<script src="js/scr.js" type="text/javascript"></script>
-	<!--<script src="js/dima.js" type="text/javascript"></script>-->
 
     <script type="text/javascript">
       document.createElement('video');document.createElement('audio');document.createElement('track');
@@ -70,10 +68,10 @@
 	    					dayType:'maybe'
 	    				}
 	    			]
-    			
+
     			}
     		,
-    		
+
     			{
     				mounthNum:5,
 	    			mounthDays:[
@@ -90,42 +88,42 @@
     		]
 
     	var table = [
-    		{	
+    		{
     			dayNum:'08',
     			mounthName:'Мая',
     			times:'21:00',
     			town:'Казань',
     			place:'Ресторан Maximillians'
     		},
-    		{	
+    		{
     			dayNum:'08',
     			mounthName:'Мая',
     			times:'21:00',
     			town:'Казань',
     			place:'Ресторан Trattoria'
     		},
-    		{	
+    		{
     			dayNum:'10',
     			mounthName:'Мая',
     			times:'21:00',
     			town:'Казань',
     			place:'Ресторан Maximillians'
     		},
-    		{	
+    		{
     			dayNum:'12',
     			mounthName:'Мая',
     			times:'20:30',
     			town:'Казань',
     			place:'Клуб Extra lounge'
     		},
-    		{	
+    		{
     			dayNum:'10',
     			mounthName:'Июня',
     			times:'20:00',
     			town:'Казань',
     			place:'Ультра клаб Teatro'
     		},
-    		{	
+    		{
     			dayNum:'10',
     			mounthName:'Июня',
     			times:'20:00',
