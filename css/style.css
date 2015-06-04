@@ -396,6 +396,9 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
 .audio-wrap-line{position: relative;width: 42px;background-color: #d6d6d6;height: 4px;border-radius: 15px;overflow: hidden;cursor: pointer;display: inline-block;vertical-align: middle;}
 .audio-wrap-line-hover{position: absolute;left: 0;top: 0;bottom: 0;background-color: #f9c311;display: block;width: 100%;}
 
+.text-audio-list{display: none;padding-left: 66px;font-size:18px;line-height: 22px;color:#7f2b8f;}
+.text-audio-list li{margin-bottom: 20px;}
+
 
 @media screen and (max-width:1920px){
     .section-1-middle-text-left{top: 70%;}
