@@ -228,7 +228,7 @@ function audioInit(){
     });
 
     $(document).on('click','.play-pause .prev, .play-pause .next',function(){
-    	$('.audiojs').removeClass('error playing');
+    	$('.audiojs').removeClass('error loading playing');
     	$('.playing  .audio-list-button .playing-line').removeAttr('style');
     	var index = $('.audio-list ol li.playing').index();
     	if($(this).is('.prev')){
@@ -243,12 +243,12 @@ function audioInit(){
     			index = 0;
     		}
     	}
-    	if(index>3 && !$('.show-all-audio-list').is('.active')){
+    	/*if(index>3 && !$('.show-all-audio-list').is('.active')){
     		$('.show-all-audio-list').click();
     	}
     	if(index<4 && $('.show-all-audio-list').is('.active')){
     		$('.show-all-audio-list').click();
-    	}
+    	}*/
     	$('.audio-list ol li').removeClass('playing');
     	$('.audio-list ol li').eq(index).addClass('playing');
     	var sourse = $('.audio-list ol li').eq(index).find('a').data('src');
@@ -287,6 +287,20 @@ function audioInit(){
 
 };
 
+function showHideTextAudioList(){
+	$(document).on('click','.show-all-audio-list',function(){
+		if($(this).is('.active')){
+			
+			$('.text-audio-list').slideUp(300);
+			$(this).text('ПОСМОТРЕТЬ ПОЛНЫЙ РЕПЕРТУАР').removeClass('active');
+		}
+		else{
+			$('.text-audio-list').slideDown(300);
+			$(this).text('СВЕРНУТЬ СПИСОК').addClass('active');
+		}
+	});
+};
+
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
@@ -311,7 +325,9 @@ $(document).ready(function() {
 	datepickerInit();
 	toggleSlide();
 	audioInit();
-	showHideAudioList();
+	//showHideAudioList();
+
+	showHideTextAudioList();
 
 });
 
@@ -326,7 +342,7 @@ $(window).resize(function() {
 		$('.section-tenth-item-title').removeClass('active');
 	}
 
-	showHideHeight();
+	//showHideHeight();
 });
 
 $(window).scroll(function(){

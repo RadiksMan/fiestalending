@@ -81,7 +81,7 @@
                             </span>
                             <a href="#" data-src="audio/Fiesta - I miss you.mp3">Fiesta -<br /> I miss you</a>
                         </li>
-                        <li>
+                        <!--<li>
                             <span class="audio-list-button vfix-before">
                                 <span class="num">05</span>
                                 <span class="playing-line"></span>
@@ -204,8 +204,34 @@
                                 <span class="playing-line"></span>
                             </span>
                             <a href="#" data-src="audio/Fiesta - Я Твой Наркотик.mp3">Fiesta -<br /> Я Твой Наркотик</a>
-                        </li>
+                        </li>-->
                     </ol>
+                </div>
+                <div class="text-audio-list">
+                    <ul>
+                        <li>Fiesta - Freed from desire...</li>
+                        <li>Fiesta - Give it away</li>
+                        <li>Fiesta - I Follow You</li>
+                        <li>Fiesta - I miss you</li>
+                        <li>Fiesta - Only You</li>
+                        <li>Fiesta - Poker Face (оригинал Lady Gaga)</li>
+                        <li>Fiesta - Pop-mix</li>
+                        <li>Fiesta - The World is mine (оригинал David Guetta)</li>
+                        <li>Fiesta - Too Close (оригинал Alex Clare)</li>
+                        <li>Fiesta - Uptown Funk</li>
+                        <li>Fiesta - What is Love</li>
+                        <li>Fiesta - World, Hold On (Children Of The Sky)</li>
+                        <li>Fiesta - Бьет по глазам</li>
+                        <li>Fiesta - Гости из будущего-Плачь,танцуй</li>
+                        <li>Fiesta - Знай это любовь</li>
+                        <li>Fiesta - Мишка Виновен cover (оригинал Иван Дорн)</li>
+                        <li>Fiesta - Отшумели летние дожди</li>
+                        <li>Fiesta - Плохая девочка</li>
+                        <li>Fiesta - Соломина (интернет проект Дорна)</li>
+                        <li>Fiesta - Сука любовь</li>
+                        <li>Fiesta - Ты не верь слезам</li>
+                        <li>Fiesta - Я Твой Наркотик</li>
+                    </ul>
                 </div>
                 <div class="show-all-audio-list">ПОСМОТРЕТЬ ПОЛНЫЙ РЕПЕРТУАР</div>
             </div>
