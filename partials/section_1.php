@@ -19,7 +19,7 @@
                     <span>100% ЖИВОЙ ЗВУК</span>
                 </div>
                 <div class="section-1-top-item">
-                    <span>+7(967)366-77-36</span>
+                    <a href="#">+7(967)366-77-36</a>
                 </div>
             </div>
             <div class="section-1-middle">
@@ -27,7 +27,7 @@
                     <img src="images/header-main-man-2.png" alt="">
                 </div> -->
                 <div class="section-1-middle-text-right">
-                    <img src="images/header-bottom-text.png" alt="">
+                    <a href=""><img src="images/header-bottom-text.png" alt=""></a>
                 </div>
 
                 <div class="section-1-middle-text-wrap">

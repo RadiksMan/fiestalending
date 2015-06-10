@@ -84,17 +84,17 @@ p{margin:0;}
 .section-1-wrap{min-height: 631px;}
 .section-1-top{padding-top: 37px;}
 .section-1-top-item{float: left;width: 25%;text-align: center;}
-.section-1-top-item span{display: inline-block;vertical-align: middle;text-transform: uppercase;color: #fff;font-size: 25px;padding-top: 15px;font-weight: bold;}
+.section-1-top-item span,.section-1-top-item>a{display: inline-block;vertical-align: middle;text-transform: uppercase;color: #fff;font-size: 25px;padding-top: 25px;font-weight: bold;text-decoration: none;}
 .section-1-middle{}
 .section-1-middle-text-left{  padding-bottom: 5px;padding-left: 56px;}
 .section-1-middle-text-right{position: absolute;  right: 68px;  top: 48%;}
 .section-1-middle-text-left span{font-size: 60px;color: #fbecbb;font-family: 'HeliosCondBlack';font-style: italic;}
-.section-1-middle-text-wrap{position: absolute;bottom: 20px;left: 14px;}
+.section-1-middle-text-wrap{position: absolute;bottom: 25%;left: 14px;}
 .section-1-middle-text{padding: 8px 52px;max-width: 375px;background: url(../images/section-1-middle-text.png) center center no-repeat;  background-size: 100% 100%;}
 .section-1-middle-text p{font-size: 33px;color: #fff;font-family: 'HeliosCondBlack';font-style: italic;text-transform: uppercase;line-height: 44px;}
 .section-1-middle-man{}
 .new-bg{}
-.section-1 .mbox{  position: absolute;top: 0;left: 50%;-webkit-transform: translate(-50%,0);-moz-transform: translate(-50%,0);transform: translate(-50%,0);height: 100%;}
+.section-1 .mbox{  position: absolute;top: 0;left: 50%;-webkit-transform: translate(-50%,0);-moz-transform: translate(-50%,0);transform: translate(-50%,0);height: 100%;padding:0;}
 .section-1-logo img{width: 180px;}
 
 /*section-2*/
@@ -162,7 +162,7 @@ p{margin:0;}
 .section-5-middle-item:hover .section-5-middle-item-button-active{opacity: 1;visibility: visible;}
 .section-5-middle-item:hover .section-5-middle-item-button{opacity: 0;visibility: hidden;}
 .section-5-middle-item .section-5-middle-item-img{height: 100%;}
-.section-5-middle-item .section-5-middle-item-img img{-webkit-filter:  blur(1px);filter:  blur(1px);-moz-filter:  blur(1px);  width: 156%;height: 100%;-webkit-filter: blur(1px);filter: blur(1px);-moz-filter: blur(1px);max-width: 147%;max-height: 106%;transform: translate(-14%,0%);-webkit-transform: translate(-14%,0%);-moz-transform: translate(-14%,0%);}
+.section-5-middle-item .section-5-middle-item-img img{width: 156%;height: 100%;max-width: 147%;max-height: 106%;transform: translate(-14%,0%);-webkit-transform: translate(-14%,0%);-moz-transform: translate(-14%,0%);}
 .section-5-middle-item:hover img{-webkit-filter:  blur(0px);filter:  blur(0px);-moz-filter:  blur(0px);}
 .section-5-middle{padding-top: 57px;}
 /*.section-5-middle-item-wrap>a{display: none;}
@@ -411,7 +411,8 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
 
 @media screen and (max-width:1920px){
     .section-1-middle-text-left{top: 70%;}
-    .section-1-middle-text-right{top: 70%;}
+    .section-1-middle-text-right{top: 48%;}
+    .section-1-logo img{width: 230px;}
 }
 @media screen and (max-width:1600px){
     .section-1-middle-text-left{top: 62%;}
@@ -426,6 +427,8 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
     .section-fourteenth-item{padding: 0 10px;}
 }
 @media screen and (max-width:1024px){
+    .section-1-logo img {width: 175px;}
+    .section-1-middle-text-wrap{bottom: 8%;}
     .boxHidden{visibility: visible;}
     .mbox{width:100%;padding-left: 15px;padding-right: 15px;box-sizing:border-box;}
     .section-1-top-item span{font-size: 21px;}
@@ -480,7 +483,7 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
     .section-6-bottom-row{padding: 0px;}
     .vjs-default-skin .vjs-volume-control {padding-right: 10px;}
     .vjs-poster {background-size: cover;}
-    .new-bg img{max-width: 700px;margin-left: 50%;transform:translate(-50%,0);-webkit-transform:translate(-50%,0);-moz-transform:translate(-50%,0);}
+    .new-bg img{margin-left: 50%;transform:translate(-50%,0);-webkit-transform:translate(-50%,0);-moz-transform:translate(-50%,0);}
     .section-1-middle-text-left {top: 48%;}
 
     .section-twelfth-fotos, .section-twelfth-table{float: none;width: 100%;padding-right: 0;}
@@ -491,10 +494,14 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
 
     .section-tenth-item{width: 100%;}
     .section-tenth-item-body{display: none;min-height: 0;padding:22px 10px 100px 10px;}
+    .section-1-middle-text p{  font-size: 29px;}
+    .section-1-middle-text-right {width: 34%;}
 }
 @media screen and (max-width:666px){
-    .section-1-top-item{float: none;width: 100%;}
-    .section-1-top{padding-bottom: 25px;}
+    .section-1-top-item{/*float: none;width: 100%;*/}
+    .section-1-top-item span,.section-1-top-item a{font-size: 16px;}
+    .section-1-top-item span,.section-1-top-item>a{padding-top: 30px;}
+    .section-1-top{padding-bottom: 25px;padding-top: 10px;}
     .section-1-middle-text-right{width: 27%;top: 30%;}
     .section-1-middle-text-left span{font-size: 37px;}
     .section-1-middle-text-left {top: 42%;}
@@ -513,7 +520,7 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
     .video-hrustalev,.video-vasilev{padding-bottom: 37px;}
     .vjs-default-skin .vjs-big-play-button{width: 90px;height: 90px;}
     .vjs-default-skin.vjs-big-play-centered .vjs-big-play-button {margin-left: -45px;}
-    .new-bg img {max-width: 600px;}
+    .new-bg img {/*max-width: 600px;*/}
 
     .footer-section{padding-top:59px;margin-left: -50%;transform:translateX(50%);-moz-transform:translateX(50%);-khtml-transform:translateX(50%);-webkit-transform:translateX(50%);}
     .footer-col{width: 100%;}
@@ -535,6 +542,8 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
     .audio-wrap-line{width: 96px;height: 8px;}
 }
 @media screen and (max-width:479px){
+    .section-1-top-item span, .section-1-top-item>a {padding-top: 21px;font-size: 14px;}
+    .section-1-top {padding-top: 5px;}
     .section-1-middle-text p {font-size: 24px;line-height: 24px;}
     .section-1-middle-text-wrap {bottom: 35px;}
     .section-5-middle-item {height: 290px;width: 290px;}
