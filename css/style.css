@@ -133,7 +133,7 @@ p{margin:0;}
 .section-4{padding-top: 40px;padding-bottom: 70px;}
 .section-4-wrap{position: relative;}
 .section-4 .section-4-video{text-align: center;}
-.section-4 .section-4-video>div{width: 100% !important;height: 450px !important;}
+.section-4 .section-4-video>div{width: 100% !important;height: 575px !important;}
 .vjs-poster{background-size: 100% 100%}
 .vjs-time-divider,.vjs-current-time-display,.vjs-duration-display{color: #7f2b8f;font-size: 14px;line-height: 28px;}
 .vjs-fullscreen-control{display: none;}
