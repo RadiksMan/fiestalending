@@ -13,7 +13,7 @@
             <div class="section-6-bottom-row cfix">
                 <div class="section-6-item text-right">
                     <div class="section-6-button ">
-                        <a href="#">
+                        <a href="#" class="swinghref">
                             Узнать<br>
                             подробнее
                         </a>

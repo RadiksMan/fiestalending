@@ -42,7 +42,7 @@
                 </div>
                 <div class="section-7-centerside text-center">
                     <p>+7(967)366-77-36</p>
-                    <a href="#">
+                    <a href="#popup-form"class="bouncehref fancybox">
                         <span>пригласить группу</span>
                     </a>
                 </div>

@@ -21,4 +21,23 @@
               </video>
        </div>
     </div>
+
+    <div id="popup-form">
+      <div class="popup-form-wrap">
+        <form id="" >
+          <div class="popup-form-title">Заказать бесплатный звонок</div>
+            <div class="popup-form-ipnut">
+              <div class="popup-form-input-item">
+                <input type="text" placeholder="Имя" name="form-name">
+              </div>
+              <div class="popup-form-input-item">
+                <input type="text" placeholder="Номер телефона" name="form-tel">
+              </div>
+              <div class="popup-form-submit">
+                <input type="submit" placeholder="Oтправить" class="button">
+              </div>
+            </div>
+        </form>
+      </div>
+    </div>
 </div>

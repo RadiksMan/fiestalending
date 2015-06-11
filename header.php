@@ -11,7 +11,8 @@
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/animate.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/video-js.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/video-js.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/timeTo.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 	<script src="js/jquery-1.10.0.min.js" type="text/javascript"></script>
 
@@ -29,10 +30,14 @@
 	<script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
 
 	<script src="js/modernizr.js" type="text/javascript"></script>
-	<script src="js/jquery.watermark.min.js" type="text/javascript"></script>
+    <script src="js/jquery.watermark.min.js" type="text/javascript"></script>
+
+	<script src="js/jquery.timeTo.js" type="text/javascript"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
-	<script src="js/slick.js" type="text/javascript"></script>
+    <script src="js/slick.js" type="text/javascript"></script>
+
+	<script src="js/maskedinput.js" type="text/javascript"></script>
 
 	<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
 	<script src="js/skrollr.min.js" type="text/javascript"></script>

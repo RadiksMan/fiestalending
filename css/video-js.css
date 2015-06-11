@@ -76,7 +76,7 @@ The default control bar that is a container for most of the controls.
   /* Start hidden */
   display: block;
   position: absolute;
-  bottom: -53px;
+  bottom: 0px;
   left: 0;
   right: 0;
   height: 40px;
@@ -239,7 +239,7 @@ fonts to show/hide properly.
 .vjs-default-skin .vjs-volume-control {
   width: 5em;
   float: right;
-  padding-right: 70px;
+  padding-right: 20px;
 }
 .vjs-default-skin .vjs-volume-bar {
   width: 5em;

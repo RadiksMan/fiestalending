@@ -306,7 +306,7 @@ function audioInit(){
 function showHideTextAudioList(){
 	$(document).on('click','.show-all-audio-list',function(){
 		if($(this).is('.active')){
-			
+
 			$('.text-audio-list').slideUp(300);
 			$(this).text('ПОСМОТРЕТЬ ПОЛНЫЙ РЕПЕРТУАР').removeClass('active');
 		}
@@ -357,7 +357,7 @@ function sinhTableWithCalendar(){
 		timerId = setTimeout(
 			function(){
 				searchInDatepicker();
-			},300									
+			},300
 		);
 	});
 };
@@ -375,8 +375,63 @@ function addTableElems(){
 
 };
 
+function telephoneMask(){
+     $(".popup-form-input-item input[name=form-tel]").mask("+7(999)999-99-99",{placeholder:"_"});
+     $('.section-elewenth-form .form-item input[name=telefone]').mask("+7(999)999-99-99",{placeholder:"_"});
+}
+
+
+
+function ModalPop(){
+    var popWidth = 25;
+    if($(window).width()<1024){
+        popWidth = 85;
+    }
+    $(document).on('click','.modal-popup',function(e){
+        e.preventDefault();
+        $('.modal').animate({'right':'0'},300);
+        var notH = 1,
+            $pop = $('.modal').hover(function(){ notH^=1; });
+
+
+        $(document).on('mousedown keydown', function( e ){
+          if(notH||e.which==27){
+            $('.modal').animate({'right':'-'+popWidth+'%'},300);
+          }
+        });
+
+    });
+    $(document).on('click','.modal-wrap-close',function(){
+        console.log('123');
+        $('.modal').animate({'right':'-'+popWidth+'%'},300);
+    });
+
+
+}
+
+function ModalSubmit(){
+    var timerInit = false;
+    $('.modal-form-main form').submit(function(){
+        timerInit = true;
+        newTime(timerInit);
+        return false;
+    });
+
+    function newTime(cout){
+        $('#countdown').timeTo({
+            start:cout,
+            seconds: 10,
+            callback:function(){
+            console.log('TIME');
+            },
+        });
+    }
+    newTime(timerInit);
+}
 /* DOCUMENT READY  */
 $(document).ready(function() {
+    ModalSubmit();
+
 	$(".fancybox").fancybox();
 	$(".fancybox-video").fancybox({
 		maxWidth	: 1280,
@@ -400,11 +455,12 @@ $(document).ready(function() {
 	audioInit();
 	//showHideAudioList();
 
-	showHideTextAudioList();
+	//showHideTextAudioList();
 
 	sinhTableWithCalendar();
 	addTableElems();
-
+    telephoneMask();
+    ModalPop()
 });
 
 $(window).load(function(){

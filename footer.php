@@ -6,7 +6,7 @@
 				</div>
 				<div class="footer-section cfix">
 					<div class="footer-col">
-						<a href="#">
+						<a  href="#" class="modal-popup">
 							<span class="footer-icon-wrap">
 								<img src="images/footer-item-img-1.png" alt="" />
 							</span>
@@ -46,7 +46,7 @@
 						</a>
 					</div>
 					<div class="footer-col">
-						<a href="#">
+						<a href="tel:+79673667736">
 							<span class="footer-icon-wrap">
 								<img src="images/footer-item-img-6.png" alt="" />
 							</span>
@@ -56,6 +56,33 @@
 				</div>
 			</div>
 		</footer>
+
+	<div class="modal">
+		<div class="modal-wrap">
+			<div class="modal-wrap-close"></div>
+			<div class="modal-form">
+				<div class="modal-form-title">
+					Мы перезвоним вам за <span>17</span> сек. Засекайте!
+				</div>
+				<div class="modal-form-main">
+					<form id="">
+			            <div class="popup-form-ipnut">
+			              <div class="popup-form-input-item">
+			                <input type="text" placeholder="Имя" name="form-name">
+			              </div>
+			              <div class="popup-form-input-item">
+			                <input type="text" placeholder="Номер телефона" name="form-tel">
+			              </div>
+			              <div class="popup-form-submit">
+			                <input type="submit" value="Жду звонка" class="button">
+			              </div>
+							<div id="countdown"></div>
+			            </div>
+			        </form>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	</div>
 </body>

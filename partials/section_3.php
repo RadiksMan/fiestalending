@@ -23,7 +23,7 @@
                     </div>
                     <div class="section-3-item text-center box2 animated boxHidden delay-1100s">
                         <div class="section-3-item-img"><img src="images/repertuar-item-img-4.png" alt=""></div>
-                        <div class="section-3-item-text">Диско 80х </div>
+                        <div class="section-3-item-text">Deep House</div>
                     </div>
                     <div class="section-3-item text-center box2 animated boxHidden delay-1300s">
                         <div class="section-3-item-img"><img src="images/repertuar-item-img-5.png" alt=""></div>
@@ -233,7 +233,7 @@
                         <li>Fiesta - Я Твой Наркотик</li>
                     </ul>
                 </div>
-                <div class="show-all-audio-list">ПОСМОТРЕТЬ ПОЛНЫЙ РЕПЕРТУАР</div>
+                <div class="show-all-audio-list"><a href="/docs/repertoire_new_-_deep.zip" download>ПОСМОТРЕТЬ ПОЛНЫЙ РЕПЕРТУАР</a></div>
             </div>
 
         </div>

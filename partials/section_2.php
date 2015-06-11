@@ -73,7 +73,7 @@
                     <span>Остались вопросы<br>
                         звоните <span>+7(967)366-77-36</span>
                     </span>
-                    <img src="images/phone-small-img.png" alt="">
+                    <a href="#popup-form"class="swinghref fancybox"><img src="images/phone-small-img.png" alt=""></a>
                 </div>
             </div>
         </div>
