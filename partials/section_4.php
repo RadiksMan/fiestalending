@@ -7,7 +7,7 @@
             <div class="section-4-middle">
                 <div class="section-4-video">
                     <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered"
-                      height="575"
+                      height="675"
                       controls preload="auto"
                       poster="images/video-poster.png"
                       data-setup='{"example_option":true}'>

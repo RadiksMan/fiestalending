@@ -384,8 +384,10 @@ function telephoneMask(){
 
 function ModalPop(){
     var popWidth = 25;
-    if($(window).width()<1024){
+    if($(window).width()<666){
         popWidth = 85;
+    }else if($(window).width()<992){
+        popWidth = 60;
     }
     $(document).on('click','.modal-popup',function(e){
         e.preventDefault();
@@ -423,11 +425,21 @@ function ModalSubmit(){
             seconds: 10,
             callback:function(){
             console.log('TIME');
+                $('.modal-wrap>div:not(.modal-wrap-close)').removeClass('active');
+                $('.modal-form-answer').addClass('active');
             },
         });
     }
     newTime(timerInit);
+
+
+
+
 }
+
+
+
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
     ModalSubmit();

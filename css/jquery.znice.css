@@ -90,7 +90,7 @@
 .zNice-select-list{border-bottom:1px solid #7f2b8f;border-top:1px solid #7f2b8f;background-color: #fff;max-height:172px;border-radius: 15px;margin-top: 5px;}
 .zNice-select-list li{border-width:0 1px 1px;border-style:solid;border-color:#7f2b8f;}
 .zNice-select-list li:last-child{border-bottom:0;}
-.zNice-select-list li.zNice-selected>.zNice-select-item,.zNice-select-list li:hover>.zNice-select-item{background:#1794c6;color:#fff;}
+.zNice-select-list li.zNice-selected>.zNice-select-item,.zNice-select-list li:hover>.zNice-select-item{  background: #7F2B8F;color:#fff;}
 .zNice-select-list li .zNice-select-item{margin:0 -1px;}
 
 .zNice-select-item,.multipleText{padding: 0 25px 0 10px;}
