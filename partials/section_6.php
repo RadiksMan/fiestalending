@@ -13,7 +13,7 @@
             <div class="section-6-bottom-row cfix">
                 <div class="section-6-item text-right">
                     <div class="section-6-button ">
-                        <a href="#" class="swinghref">
+                        <a  href="#popup-form" class="fancybox swinghref">
                             Узнать<br>
                             подробнее
                         </a>

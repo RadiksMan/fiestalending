@@ -395,34 +395,57 @@ function ModalPop(){
         var notH = 1,
             $pop = $('.modal').hover(function(){ notH^=1; });
 
-
         $(document).on('mousedown keydown', function( e ){
           if(notH||e.which==27){
             $('.modal').animate({'right':'-'+popWidth+'%'},300);
           }
         });
-
     });
     $(document).on('click','.modal-wrap-close',function(){
-        console.log('123');
         $('.modal').animate({'right':'-'+popWidth+'%'},300);
     });
 
+    $('.modal-form-answer-no form').submit(function(){
+        $('.modal-wrap>div:not(.modal-wrap-close)').removeClass('active');
+        $('.modal-form-answer-no-next').addClass('active');
+        setTimeout(function(){$('.modal').animate({'right':'-'+popWidth+'%'},300);},2000)
+        return false;
+    });
+
+    $(document).on('click','.modal-form-next-time',function(){
+        $('.modal-wrap>div:not(.modal-wrap-close)').removeClass('active');
+        $('.modal-form-answer-no').addClass('active');
+    });
+
+    $(document).on('click','.modal-form-answer-button .answer-no',function(){
+        $('.modal-wrap>div:not(.modal-wrap-close)').removeClass('active');
+        $('.modal-form-answer-no').addClass('active');
+    });
+    $(document).on('click','.modal-form-answer-button .answer-yes',function(){
+        $('.modal-wrap>div:not(.modal-wrap-close)').removeClass('active');
+        $('.modal-form-answer-yes').addClass('active');
+        setTimeout(function(){$('.modal').animate({'right':'-'+popWidth+'%'},300);},2000)
+    });
 
 }
 
 function ModalSubmit(){
     var timerInit = false;
     $('.modal-form-main form').submit(function(){
-        timerInit = true;
-        newTime(timerInit);
+        if($('.modal-form input').val()==0){
+           $('.modal-form input:not([type=submit])').addClass('error');
+        }else{
+            $('.modal-form input:not([type=submit])').removeClass('error');
+            timerInit = true;
+            newTime(timerInit);
+        }
         return false;
     });
 
     function newTime(cout){
         $('#countdown').timeTo({
             start:cout,
-            seconds: 10,
+            seconds: 17,
             callback:function(){
             console.log('TIME');
                 $('.modal-wrap>div:not(.modal-wrap-close)').removeClass('active');
@@ -431,9 +454,6 @@ function ModalSubmit(){
         });
     }
     newTime(timerInit);
-
-
-
 
 }
 

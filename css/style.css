@@ -143,7 +143,7 @@ p{margin:0;}
 .section-4 .section-title{position: absolute;left: 0;right: 0;top: 34px;z-index: 10;}
 .vjs-fullscreen-control.vjs-control{display: block;}
 .vjs-control-bar{}
-
+.section-4 .section-4-video>div.vjs-fullscreen {width: 100% !important;height: 100% !important;}
 
 
 
@@ -414,10 +414,10 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
 .text-audio-list li{margin-bottom: 20px;}
 
 /*Pop-up form*/
-.popup-form-wrap{padding:10px;min-width: 400px; text-align: center;}
+.popup-form-wrap{padding:20px;min-width: 400px; text-align: center;}
 
 .popup-form-title{  font-size: 25px;padding-bottom: 30px;font-weight: bold;color: #7f2b8f;}
-.popup-form-input-item{padding-bottom: 15px;}
+.popup-form-input-item{padding-bottom: 25px;}
 .popup-form-input-item input{font-size: 15px;color: #7f2b8f;font-style: italic;padding: 10px 10px 10px 10px;border: 1px solid #7f2b8f;border-radius: 10px;outline: none;}
 .popup-form-input-item input:focus{  box-shadow: 1px 1px 6px #7f2b8f;}
 .popup-form-input-item input::-webkit-input-placeholder {color:#7f2b8f;}
@@ -444,7 +444,7 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
 .modal-form-answer-no .popup-form-ipnut{}
 .modal-form-answer-no-row>div{display: inline-block;vertical-align: middle;}
 .modal-form-answer-no-select{width: 120px;}
-.modal-form-answer-no-text{padding-left: 5px;padding-right: 5px;  color: #7F2B8F;font-size: 20px;}
+.modal-form-answer-no-text{padding-left: 5px;padding-right: 5px;color: #7F2B8F;font-size: 20px;}
 .modal-form-answer-no-row{padding-bottom: 25px;}
 
 .modal-form-answer-yes .modal-form-title{padding-top: 25px;}
@@ -454,9 +454,11 @@ footer{background-image:url(../images/footer-bg.jpg);background-position: center
 .modal-wrap .active{visibility: visible !important;opacity: 1 !important;height: 100% !important;}
 .modal-form-answer{/*padding-top: 20%;*/}
 
+.modal-form-next-time{padding-top: 15px;color: #7F2B8F;font-size: 18px;text-align: center;opacity:.8;transition: all ease 300ms;-webkit-transition: all ease 300ms;-moz-transition: all ease 300ms;cursor: pointer; }
+.modal-form-next-time span{border-bottom: 1px dashed #7F2B8F; }
+.modal-form-next-time:hover{opacity: 1;}
 
-
-
+.modal-form input.error{border:1px solid red;}
 
 
 

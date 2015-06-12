@@ -14,7 +14,7 @@
 						</a>
 					</div>
 					<div class="footer-col">
-						<a href="https://vk.com\fiestamusic">
+						<a href="https://vk.com/fiestamusic">
 							<span class="footer-icon-wrap">
 								<img src="images/footer-item-img-2.png" alt="" />
 							</span>
@@ -80,6 +80,9 @@
 			            </div>
 			        </form>
 				</div>
+				<div class="modal-form-next-time">
+					<span>Выбрать удобное время звонка</span>
+				</div>
 			</div>
             <div class="modal-form-answer">
                 <div class="modal-form-title">
@@ -97,7 +100,7 @@
             </div>
             <div class="modal-form-answer-no">
                 <div class="modal-form-title">
-                    Сейчас сотрудники не в офисе. Но в выбранное время я сам 100% инициирую звонок между вами.
+                    Выберите удобное время звонка
                 </div>
                 <div class="modal-form-main">
                     <form id="">

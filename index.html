@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/animate.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/video-js.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/timeTo.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
     <script src="js/jquery-1.10.0.min.js" type="text/javascript"></script>
 
@@ -31,8 +32,12 @@
     <script src="js/modernizr.js" type="text/javascript"></script>
     <script src="js/jquery.watermark.min.js" type="text/javascript"></script>
 
+    <script src="js/jquery.timeTo.js" type="text/javascript"></script>
+
     <link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
     <script src="js/slick.js" type="text/javascript"></script>
+
+    <script src="js/maskedinput.js" type="text/javascript"></script>
 
     <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
     <script src="js/skrollr.min.js" type="text/javascript"></script>
@@ -47,6 +52,7 @@
     </script>
 
     <script src="js/scr.js" type="text/javascript"></script>
+
     <script type="text/javascript">
       document.createElement('video');document.createElement('audio');document.createElement('track');
       videojs.options.flash.swf = "video/video-js.swf"
@@ -171,1040 +177,1154 @@
                   </video>
            </div>
         </div>
+
+        <div id="popup-form">
+          <div class="popup-form-wrap">
+            <form id="" >
+              <div class="popup-form-title">Заказать бесплатный звонок</div>
+                <div class="popup-form-ipnut">
+                  <div class="popup-form-input-item">
+                    <input type="text" placeholder="Имя" name="form-name">
+                  </div>
+                  <div class="popup-form-input-item">
+                    <input type="text" placeholder="Номер телефона" name="form-tel">
+                  </div>
+                  <div class="popup-form-submit">
+                    <input type="submit" placeholder="Oтправить" class="button">
+                  </div>
+                </div>
+            </form>
+          </div>
+        </div>
     </div>
     <div class="main">
-    <section class="section-1">
-        <div class="new-bg">
-            <img src="images/header-bg-new.jpg" alt="">
-        </div>
-        <div class="mbox">
-            <div class="section-1-wrap">
-                <div class="section-1-top cfix">
-                    <div class="section-1-top-item">
-                        <div class="section-1-logo">
-                            <a href="#">
-                                <img src="images/header-logo.svg" alt="">
-                            </a>
+        <section class="section-1">
+            <div class="new-bg">
+                <img src="images/header-bg-new.jpg" alt="">
+            </div>
+            <div class="mbox">
+                <div class="section-1-wrap">
+                    <div class="section-1-top cfix">
+                        <div class="section-1-top-item">
+                            <div class="section-1-logo">
+                                <a href="#">
+                                    <img src="images/header-logo.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-1-top-item">
+                            <span>группа на свадьбу</span>
+                        </div>
+                        <div class="section-1-top-item">
+                            <span>100% ЖИВОЙ ЗВУК</span>
+                        </div>
+                        <div class="section-1-top-item">
+                            <a href="#popup-form" class="fancybox">+7(967)366-77-36</a>
                         </div>
                     </div>
-                    <div class="section-1-top-item">
-                        <span>группа на свадьбу</span>
-                    </div>
-                    <div class="section-1-top-item">
-                        <span>100% ЖИВОЙ ЗВУК</span>
-                    </div>
-                    <div class="section-1-top-item">
-                        <span>+7(967)366-77-36</span>
-                    </div>
-                </div>
-                <div class="section-1-middle">
-        <!--             <div class="section-1-middle-man text-center">
-                        <img src="images/header-main-man-2.png" alt="">
-                    </div> -->
-                    <div class="section-1-middle-text-right">
-                        <img src="images/header-bottom-text.png" alt="">
-                    </div>
+                    <div class="section-1-middle">
+            <!--             <div class="section-1-middle-man text-center">
+                            <img src="images/header-main-man-2.png" alt="">
+                        </div> -->
+                        <div class="section-1-middle-text-right">
+                            <a href="#popup-form" class="fancybox"><img src="images/header-bottom-text.png" alt=""></a>
+                        </div>
 
-                    <div class="section-1-middle-text-wrap">
-                        <div class="section-1-middle-text-left"><span>АКЦИЯ!</span></div>
-                        <div class="section-1-middle-text">
-                            <p>Пригласи группу Fiesta на свадьбу до 15 июня, и получи в подарок первый танец по 100% живой звук совершенно бесплатно!!! </p>
+                        <div class="section-1-middle-text-wrap">
+                            <div class="section-1-middle-text-left"><span>АКЦИЯ!</span></div>
+                            <div class="section-1-middle-text">
+                                <p>Пригласи группу Fiesta на свадьбу до 15 июня, и получи в подарок первый танец по 100% живой звук совершенно бесплатно!!! </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="section-2">
-        <div class="mbox">
-            <div class="section-2-wrap">
-                <div class="section-title text-center">
-                    <span>ПОДРОБНОСТИ АКЦИИ</span>
-                </div>
-                <div class="section-2-text-top text-center">
-                    Мы бесплатно разучим и исполним для молодожёнов  любую песню для первого танца под сопровождение живой группы.
-                </div>
-                <div class="section-2-text-top-next text-center">
-                    Как это происходит?
-                </div>
-                <div class="section-2-middle-row cfix">
-                    <div class="section-2-middle-item text-center box animated boxHidden delay-03s">
-                        <div class="section-2-middle-item-img vfix-before">
-                            <div class="section-2-middle-item-mini-circle vfix-before">
-                                <span>1</span>
+        </section>
+        <section class="section-2">
+            <div class="mbox">
+                <div class="section-2-wrap">
+                    <div class="section-title text-center">
+                        <span>ПОДРОБНОСТИ АКЦИИ</span>
+                    </div>
+                    <div class="section-2-text-top text-center">
+                        Мы бесплатно разучим и исполним для молодожёнов  любую песню для первого танца под сопровождение живой группы.
+                    </div>
+                    <div class="section-2-text-top-next text-center">
+                        Как это происходит?
+                    </div>
+                    <div class="section-2-middle-row cfix">
+                        <div class="section-2-middle-item text-center box animated boxHidden delay-03s">
+                            <div class="section-2-middle-item-img vfix-before">
+                                <div class="section-2-middle-item-mini-circle vfix-before">
+                                    <span>1</span>
+                                </div>
+                                <img src="images/special-item-img-1.png" alt="">
                             </div>
-                            <img src="images/special-item-img-1.png" alt="">
+                            <div class="section-2-middle-item-description">
+                                 Вы звоните нам, и сообщаете о предполагаемой дате Вашей свадьбы.
+                            </div>
                         </div>
-                        <div class="section-2-middle-item-description">
-                             Вы звоните нам, и сообщаете о предполагаемой дате Вашей свадьбы.
+                        <div class="section-2-middle-item text-center box animated boxHidden delay-05s">
+                            <div class="section-2-middle-item-img vfix-before">
+                                <div class="section-2-middle-item-mini-circle vfix-before">
+                                    <span>2</span>
+                                </div>
+                                <img src="images/special-item-img-2.png" alt="">
+                            </div>
+                            <div class="section-2-middle-item-description">
+                                Мы бронируем за вами дату на предстоящее событие.
+                            </div>
+                        </div>
+                        <div class="section-2-middle-item text-center box animated boxHidden delay-08s">
+                            <div class="section-2-middle-item-img vfix-before">
+                                <div class="section-2-middle-item-mini-circle vfix-before">
+                                    <span>3</span>
+                                </div>
+                                <img src="images/special-item-img-3.png" alt="">
+                            </div>
+                            <div class="section-2-middle-item-description">
+                                Вы выбираете любимую песню и сообщаете нам. Согласовываем детали.
+                            </div>
+                        </div>
+                        <div class="section-2-middle-item text-center box animated boxHidden delay-1100s ">
+                            <div class="section-2-middle-item-img vfix-before">
+                                <div class="section-2-middle-item-mini-circle vfix-before">
+                                    <span>4</span>
+                                </div>
+                                <img src="images/special-item-img-4.png" alt="">
+                            </div>
+                            <div class="section-2-middle-item-description">
+                                Мы разучиваем ее и проводим с Вами репетицию первого танца.
+                            </div>
+                        </div>
+                        <div class="section-2-middle-item text-center box animated boxHidden delay-1300s">
+                            <div class="section-2-middle-item-img vfix-before">
+                                <div class="section-2-middle-item-mini-circle vfix-before">
+                                    <span>5</span>
+                                </div>
+                                <img src="images/special-item-img-5.png" alt="">
+                            </div>
+                            <div class="section-2-middle-item-description">
+                                Вы получаете незабываемый танец молодоженов, под живое выступление группы Fiesta.
+                            </div>
                         </div>
                     </div>
-                    <div class="section-2-middle-item text-center box animated boxHidden delay-05s">
-                        <div class="section-2-middle-item-img vfix-before">
-                            <div class="section-2-middle-item-mini-circle vfix-before">
-                                <span>2</span>
-                            </div>
-                            <img src="images/special-item-img-2.png" alt="">
+                    <div class="section-2-bottom-row cfix">
+                        <div class="section-2-bottom-left">У нас есть опыт проведения подобной акции на расстоянии </div>
+                        <div class="section-2-bottom-right">
+                            <span>Остались вопросы<br>
+                                звоните <span>+7(967)366-77-36</span>
+                            </span>
+                            <a href="#popup-form"class="swinghref fancybox"><img src="images/phone-small-img.png" alt=""></a>
                         </div>
-                        <div class="section-2-middle-item-description">
-                            Мы бронируем за вами дату на предстоящее событие.
-                        </div>
-                    </div>
-                    <div class="section-2-middle-item text-center box animated boxHidden delay-08s">
-                        <div class="section-2-middle-item-img vfix-before">
-                            <div class="section-2-middle-item-mini-circle vfix-before">
-                                <span>3</span>
-                            </div>
-                            <img src="images/special-item-img-3.png" alt="">
-                        </div>
-                        <div class="section-2-middle-item-description">
-                            Вы выбираете любимую песню и сообщаете нам. Согласовываем детали.
-                        </div>
-                    </div>
-                    <div class="section-2-middle-item text-center box animated boxHidden delay-1100s ">
-                        <div class="section-2-middle-item-img vfix-before">
-                            <div class="section-2-middle-item-mini-circle vfix-before">
-                                <span>4</span>
-                            </div>
-                            <img src="images/special-item-img-4.png" alt="">
-                        </div>
-                        <div class="section-2-middle-item-description">
-                            Мы разучиваем ее и проводим с Вами репетицию первого танца.
-                        </div>
-                    </div>
-                    <div class="section-2-middle-item text-center box animated boxHidden delay-1300s">
-                        <div class="section-2-middle-item-img vfix-before">
-                            <div class="section-2-middle-item-mini-circle vfix-before">
-                                <span>5</span>
-                            </div>
-                            <img src="images/special-item-img-5.png" alt="">
-                        </div>
-                        <div class="section-2-middle-item-description">
-                            Вы получаете незабываемый танец молодоженов, под живое выступление группы Fiesta.
-                        </div>
-                    </div>
-                </div>
-                <div class="section-2-bottom-row cfix">
-                    <div class="section-2-bottom-left">У нас есть опыт проведения подобной акции на расстоянии </div>
-                    <div class="section-2-bottom-right">
-                        <span>Остались вопросы<br>
-                            звоните <span>+7(967)366-77-36</span>
-                        </span>
-                        <img src="images/phone-small-img.png" alt="">
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="section-3">
-        <div class="mbox">
-            <div class="section-3-wrap">
-                <div class="section-title text-center">
-                    <span>Наш репертуар</span>
-                </div>
-                <div class="section-3-text text-center">
-                    Популярные российские и иностранные песни на любой вкус.
-                </div>
-                <div class="section-3-row-wrap">
-                    <div class="section-3-row cfix">
-                        <div class="section-3-item text-center box2 animated boxHidden delay-03s">
-                            <div class="section-3-item-img"><img src="images/repertuar-item-img-1.png" alt=""></div>
-                            <div class="section-3-item-text">Популярные современные новинки</div>
-                        </div>
-                        <div class="section-3-item text-center box2 animated boxHidden delay-05s">
-                            <div class="section-3-item-img"><img src="images/repertuar-item-img-2.png" alt=""></div>
-                            <div class="section-3-item-text">Хиты 90х-2000х</div>
-                        </div>
-                        <div class="section-3-item text-center box2 animated boxHidden delay-08s">
-                            <div class="section-3-item-img"><img src="images/repertuar-item-img-3.png" alt=""></div>
-                            <div class="section-3-item-text">Диско 80х </div>
-                        </div>
-                        <div class="section-3-item text-center box2 animated boxHidden delay-1100s">
-                            <div class="section-3-item-img"><img src="images/repertuar-item-img-4.png" alt=""></div>
-                            <div class="section-3-item-text">Диско 80х </div>
-                        </div>
-                        <div class="section-3-item text-center box2 animated boxHidden delay-1300s">
-                            <div class="section-3-item-img"><img src="images/repertuar-item-img-5.png" alt=""></div>
-                            <div class="section-3-item-text">Louge</div>
-                        </div>
+        </section>
+        <section class="section-3">
+            <div class="mbox">
+                <div class="section-3-wrap">
+                    <div class="section-title text-center">
+                        <span>Наш репертуар</span>
                     </div>
-                </div>
-
-                <div class="section-3-audio">
-
-                    <div class="audio-wrap cfix">
-                        <div class="audio-wrap-icon">
-                            <img src="images/audio-icon.png" alt="" />
-                        </div>
-                        <div class="audio-wrap-main cfix">
-                            <div class="audio-wrap-item">
-                                <audio prealoder src="audio/Fiesta - Freed from desire....mp3"></audio>
+                    <div class="section-3-text text-center">
+                        Популярные российские и иностранные песни на любой вкус.
+                    </div>
+                    <div class="section-3-row-wrap">
+                        <div class="section-3-row cfix">
+                            <div class="section-3-item text-center box2 animated boxHidden delay-03s">
+                                <div class="section-3-item-img"><img src="images/repertuar-item-img-1.png" alt=""></div>
+                                <div class="section-3-item-text">Популярные современные новинки</div>
                             </div>
-                            <div class="audio-wrap-sound">
-                                <span class="audio-wrap-sound-icon"></span>
-                                <span class="audio-wrap-line">
-                                    <span class="audio-wrap-line-hover"></span>
-                                </span>
+                            <div class="section-3-item text-center box2 animated boxHidden delay-05s">
+                                <div class="section-3-item-img"><img src="images/repertuar-item-img-2.png" alt=""></div>
+                                <div class="section-3-item-text">Хиты 90х-2000х</div>
+                            </div>
+                            <div class="section-3-item text-center box2 animated boxHidden delay-08s">
+                                <div class="section-3-item-img"><img src="images/repertuar-item-img-3.png" alt=""></div>
+                                <div class="section-3-item-text">Диско 80х </div>
+                            </div>
+                            <div class="section-3-item text-center box2 animated boxHidden delay-1100s">
+                                <div class="section-3-item-img"><img src="images/repertuar-item-img-4.png" alt=""></div>
+                                <div class="section-3-item-text">Deep House</div>
+                            </div>
+                            <div class="section-3-item text-center box2 animated boxHidden delay-1300s">
+                                <div class="section-3-item-img"><img src="images/repertuar-item-img-5.png" alt=""></div>
+                                <div class="section-3-item-text">Louge</div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="audio-list">
-                        <ol>
-                            <li class="show">
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">01</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Freed from desire....mp3">Fiesta -<br /> Freed from desire...</a>
-                            </li>
-                            <li class="show">
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">02</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Give it away.mp3">Fiesta -<br /> Give it away</a>
-                            </li>
-                            <li class="show">
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">03</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - I Follow You.mp3">Fiesta -<br /> I Follow You</a>
-                            </li>
-                            <li class="show">
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">04</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - I miss you.mp3">Fiesta -<br /> I miss you</a>
-                            </li>
-                            <!--<li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">05</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Only You.mp3">Fiesta -<br /> Only You</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">06</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Poker Face (оригинал Lady Gaga).mp3">Fiesta -<br /> Poker Face (оригинал Lady Gaga)</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">07</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Pop-mix.mp3">Fiesta -<br /> Pop-mix</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">08</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - The World is mine (оригинал David Guetta).mp3">Fiesta -<br /> The World is mine (оригинал David Guetta)</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">09</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Too Close (оригинал Alex Clare).mp3">Fiesta -<br /> Too Close (оригинал Alex Clare)</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">10</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Uptown Funk.mp3">Fiesta -<br /> Uptown Funk</a></li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">11</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - What is Love.mp3">Fiesta -<br /> What is Love</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">12</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - World, Hold On (Children Of The Sky).mp3">Fiesta -<br /> World, Hold On (Children Of The Sky)</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">13</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Бьет по глазам.mp3">Fiesta -<br /> Бьет по глазам</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">14</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Гости из будущего-Плачь,танцуй.mp3">Fiesta -<br /> Гости из будущего-Плачь,танцуй</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">15</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Знай это любовь.mp3">Fiesta -<br /> Знай это любовь</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">16</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Мишка Виновен cover (оригинал Иван Дорн).mp3">Fiesta -<br /> Мишка Виновен cover (оригинал Иван Дорн)</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">17</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Отшумели летние дожди.mp3">Fiesta -<br /> Отшумели летние дожди</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">18</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Плохая девочка.mp3">Fiesta -<br /> Плохая девочка</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">19</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Соломина (интернет проект Дорна).mp3">Fiesta -<br /> Соломина (интернет проект Дорна)</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">20</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Сука любовь.mp3">Fiesta -<br /> Сука любовь</a></li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">21</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Ты не верь слезам.mp3">Fiesta -<br /> Ты не верь слезам</a>
-                            </li>
-                            <li>
-                                <span class="audio-list-button vfix-before">
-                                    <span class="num">22</span>
-                                    <span class="playing-line"></span>
-                                </span>
-                                <a href="#" data-src="audio/Fiesta - Я Твой Наркотик.mp3">Fiesta -<br /> Я Твой Наркотик</a>
-                            </li>-->
-                        </ol>
-                    </div>
-                    <div class="text-audio-list">
-                        <ul>
-                            <li>Fiesta - Freed from desire...</li>
-                            <li>Fiesta - Give it away</li>
-                            <li>Fiesta - I Follow You</li>
-                            <li>Fiesta - I miss you</li>
-                            <li>Fiesta - Only You</li>
-                            <li>Fiesta - Poker Face (оригинал Lady Gaga)</li>
-                            <li>Fiesta - Pop-mix</li>
-                            <li>Fiesta - The World is mine (оригинал David Guetta)</li>
-                            <li>Fiesta - Too Close (оригинал Alex Clare)</li>
-                            <li>Fiesta - Uptown Funk</li>
-                            <li>Fiesta - What is Love</li>
-                            <li>Fiesta - World, Hold On (Children Of The Sky)</li>
-                            <li>Fiesta - Бьет по глазам</li>
-                            <li>Fiesta - Гости из будущего-Плачь,танцуй</li>
-                            <li>Fiesta - Знай это любовь</li>
-                            <li>Fiesta - Мишка Виновен cover (оригинал Иван Дорн)</li>
-                            <li>Fiesta - Отшумели летние дожди</li>
-                            <li>Fiesta - Плохая девочка</li>
-                            <li>Fiesta - Соломина (интернет проект Дорна)</li>
-                            <li>Fiesta - Сука любовь</li>
-                            <li>Fiesta - Ты не верь слезам</li>
-                            <li>Fiesta - Я Твой Наркотик</li>
-                        </ul>
-                    </div>
-                    <div class="show-all-audio-list">ПОСМОТРЕТЬ ПОЛНЫЙ РЕПЕРТУАР</div>
-                </div>
+                    <div class="section-3-audio">
 
-            </div>
-        </div>
-    </section>
-    <section class="section-4">
-        <div class="mbox">
-            <div class="section-4-wrap">
-                <div class="section-title text-center white-text">
-                    <span>видео о нас </span>
+                        <div class="audio-wrap cfix">
+                            <div class="audio-wrap-icon">
+                                <img src="images/audio-icon.png" alt="" />
+                            </div>
+                            <div class="audio-wrap-main cfix">
+                                <div class="audio-wrap-item">
+                                    <audio prealoder src="audio/Fiesta - Freed from desire....mp3"></audio>
+                                </div>
+                                <div class="audio-wrap-sound">
+                                    <span class="audio-wrap-sound-icon"></span>
+                                    <span class="audio-wrap-line">
+                                        <span class="audio-wrap-line-hover"></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="audio-list">
+                            <ol>
+                                <li class="show">
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">01</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Freed from desire....mp3">Fiesta -<br /> Freed from desire...</a>
+                                </li>
+                                <li class="show">
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">02</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Give it away.mp3">Fiesta -<br /> Give it away</a>
+                                </li>
+                                <li class="show">
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">03</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - I Follow You.mp3">Fiesta -<br /> I Follow You</a>
+                                </li>
+                                <li class="show">
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">04</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - I miss you.mp3">Fiesta -<br /> I miss you</a>
+                                </li>
+                                <!--<li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">05</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Only You.mp3">Fiesta -<br /> Only You</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">06</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Poker Face (оригинал Lady Gaga).mp3">Fiesta -<br /> Poker Face (оригинал Lady Gaga)</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">07</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Pop-mix.mp3">Fiesta -<br /> Pop-mix</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">08</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - The World is mine (оригинал David Guetta).mp3">Fiesta -<br /> The World is mine (оригинал David Guetta)</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">09</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Too Close (оригинал Alex Clare).mp3">Fiesta -<br /> Too Close (оригинал Alex Clare)</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">10</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Uptown Funk.mp3">Fiesta -<br /> Uptown Funk</a></li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">11</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - What is Love.mp3">Fiesta -<br /> What is Love</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">12</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - World, Hold On (Children Of The Sky).mp3">Fiesta -<br /> World, Hold On (Children Of The Sky)</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">13</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Бьет по глазам.mp3">Fiesta -<br /> Бьет по глазам</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">14</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Гости из будущего-Плачь,танцуй.mp3">Fiesta -<br /> Гости из будущего-Плачь,танцуй</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">15</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Знай это любовь.mp3">Fiesta -<br /> Знай это любовь</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">16</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Мишка Виновен cover (оригинал Иван Дорн).mp3">Fiesta -<br /> Мишка Виновен cover (оригинал Иван Дорн)</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">17</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Отшумели летние дожди.mp3">Fiesta -<br /> Отшумели летние дожди</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">18</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Плохая девочка.mp3">Fiesta -<br /> Плохая девочка</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">19</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Соломина (интернет проект Дорна).mp3">Fiesta -<br /> Соломина (интернет проект Дорна)</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">20</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Сука любовь.mp3">Fiesta -<br /> Сука любовь</a></li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">21</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Ты не верь слезам.mp3">Fiesta -<br /> Ты не верь слезам</a>
+                                </li>
+                                <li>
+                                    <span class="audio-list-button vfix-before">
+                                        <span class="num">22</span>
+                                        <span class="playing-line"></span>
+                                    </span>
+                                    <a href="#" data-src="audio/Fiesta - Я Твой Наркотик.mp3">Fiesta -<br /> Я Твой Наркотик</a>
+                                </li>-->
+                            </ol>
+                        </div>
+                        <div class="text-audio-list">
+                            <ul>
+                                <li>Fiesta - Freed from desire...</li>
+                                <li>Fiesta - Give it away</li>
+                                <li>Fiesta - I Follow You</li>
+                                <li>Fiesta - I miss you</li>
+                                <li>Fiesta - Only You</li>
+                                <li>Fiesta - Poker Face (оригинал Lady Gaga)</li>
+                                <li>Fiesta - Pop-mix</li>
+                                <li>Fiesta - The World is mine (оригинал David Guetta)</li>
+                                <li>Fiesta - Too Close (оригинал Alex Clare)</li>
+                                <li>Fiesta - Uptown Funk</li>
+                                <li>Fiesta - What is Love</li>
+                                <li>Fiesta - World, Hold On (Children Of The Sky)</li>
+                                <li>Fiesta - Бьет по глазам</li>
+                                <li>Fiesta - Гости из будущего-Плачь,танцуй</li>
+                                <li>Fiesta - Знай это любовь</li>
+                                <li>Fiesta - Мишка Виновен cover (оригинал Иван Дорн)</li>
+                                <li>Fiesta - Отшумели летние дожди</li>
+                                <li>Fiesta - Плохая девочка</li>
+                                <li>Fiesta - Соломина (интернет проект Дорна)</li>
+                                <li>Fiesta - Сука любовь</li>
+                                <li>Fiesta - Ты не верь слезам</li>
+                                <li>Fiesta - Я Твой Наркотик</li>
+                            </ul>
+                        </div>
+                        <div class="show-all-audio-list"><a href="/docs/repertoire_new_-_deep.zip" download>ПОСМОТРЕТЬ ПОЛНЫЙ РЕПЕРТУАР</a></div>
+                    </div>
+
                 </div>
-                <div class="section-4-middle">
-                    <div class="section-4-video">
-                        <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered"
-                          controls preload="auto"
-                          poster="images/video-poster.png"
-                          data-setup='{"example_option":true}'>
-                         <source src="video/Fiesta Pop-mix.mp4" type='video/mp4' />
-                         <p class="vjs-no-js">Для просмотра этого видео, пожалуйста, включите JavaScript.<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-                        </video>
+            </div>
+        </section>
+        <section class="section-4">
+            <div class="mbox">
+                <div class="section-4-wrap">
+                    <div class="section-title text-center white-text">
+                        <span>видео о нас </span>
+                    </div>
+                    <div class="section-4-middle">
+                        <div class="section-4-video">
+                            <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered"
+                              height="675"
+                              controls preload="auto"
+                              poster="images/video-poster.png"
+                              data-setup='{"example_option":true}'>
+
+                             <source src="video/Fiesta Pop-mix.mp4" type='video/mp4' />
+                             <p class="vjs-no-js">Для просмотра этого видео, пожалуйста, включите JavaScript.<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                            </video>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="section-5">
-        <div class="mbox">
-            <div class="section-5-wrap">
-                <div class="section-title text-center">
-                    <span>РАЗНЫЕ КОСТЮМЫ ДЛЯ ВЫСТУПЛЕНИЙ</span>
-                </div>
-                <div class="section-5-middle">
-                    <div class="section-5-middle-row cfix">
-                        <div class="section-5-middle-item-wrap">
-                            <a href="images/suit-item-1-fancybox.jpg" rel="gallery1" class="fancybox">
-                                <div class="section-5-middle-item">
-                                    <div class="section-5-middle-item-img">
-                                        <img src="images/suit-item-1-fancybox.jpg"alt="">
-                                    </div>
-                                    <div class="section-5-middle-item-button">
-                                        <div class="section-5-middle-item-button-wrap">
-                                            <span>СМОТРЕТЬ</span>
+        </section>
+        <section class="section-5">
+            <div class="mbox">
+                <div class="section-5-wrap">
+                    <div class="section-title text-center">
+                        <span>РАЗНЫЕ КОСТЮМЫ ДЛЯ ВЫСТУПЛЕНИЙ</span>
+                    </div>
+                    <div class="section-5-middle">
+                        <div class="section-5-middle-row cfix">
+                            <div class="section-5-middle-item-wrap">
+                                <a href="images/suit-item-1-fancybox.jpg" rel="gallery1" class="fancybox">
+                                    <div class="section-5-middle-item">
+                                        <div class="section-5-middle-item-img">
+                                            <img src="images/suit-item-1-fancybox.jpg"alt="">
+                                        </div>
+                                        <div class="section-5-middle-item-button">
+                                            <div class="section-5-middle-item-button-wrap">
+                                                <span>СМОТРЕТЬ</span>
+                                            </div>
+                                        </div>
+                                        <div class="section-5-middle-item-button-active">
+                                            <img src="../images/suit-button-hover.png" alt="">
                                         </div>
                                     </div>
-                                    <div class="section-5-middle-item-button-active">
-                                        <img src="../images/suit-button-hover.png" alt="">
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="images/suit-item-1-fancybox-img-2.jpg" rel="gallery1" class="fancybox"></a>
-                            <a href="images/suit-item-1-fancybox-img-3.jpg" rel="gallery1" class="fancybox"></a>
-                            <a href="images/suit-item-1-fancybox-img-4.jpg" rel="gallery1" class="fancybox"></a>
-                            <a href="images/suit-item-1-fancybox-img-5.jpg" rel="gallery1" class="fancybox"></a>
-                            <a href="images/suit-item-1-fancybox-img-6.jpg" rel="gallery1" class="fancybox"></a>
-                        </div>
-                        <div class="section-5-middle-item-wrap">
-                            <a href="images/suit-item-2-fansybox.jpg" class="fancybox" rel="gallery2">
-                                <div class="section-5-middle-item">
-                                    <div class="section-5-middle-item-img">
-                                        <img src="images/suit-item-2-fansybox.jpg"alt="">
-                                    </div>
-                                    <div class="section-5-middle-item-button">
-                                        <div class="section-5-middle-item-button-wrap">
-                                            <span>СМОТРЕТЬ</span>
+                                </a>
+                                <a href="images/suit-item-1-fancybox-img-2.jpg" rel="gallery1" class="fancybox"></a>
+                                <a href="images/suit-item-1-fancybox-img-3.jpg" rel="gallery1" class="fancybox"></a>
+                                <a href="images/suit-item-1-fancybox-img-4.jpg" rel="gallery1" class="fancybox"></a>
+                                <a href="images/suit-item-1-fancybox-img-5.jpg" rel="gallery1" class="fancybox"></a>
+                                <a href="images/suit-item-1-fancybox-img-6.jpg" rel="gallery1" class="fancybox"></a>
+                                <a href="images/suit-item-1-fancybox-img-7.jpg" rel="gallery1" class="fancybox"></a>
+                                <a href="images/suit-item-1-fancybox-img-8.jpg" rel="gallery1" class="fancybox"></a>
+                            </div>
+                            <div class="section-5-middle-item-wrap">
+                                <a href="images/suit-item-2-fansybox.jpg" class="fancybox" rel="gallery2">
+                                    <div class="section-5-middle-item">
+                                        <div class="section-5-middle-item-img">
+                                            <img src="images/suit-item-2-fansybox.jpg"alt="">
+                                        </div>
+                                        <div class="section-5-middle-item-button">
+                                            <div class="section-5-middle-item-button-wrap">
+                                                <span>СМОТРЕТЬ</span>
+                                            </div>
+                                        </div>
+                                        <div class="section-5-middle-item-button-active">
+                                            <img src="../images/suit-button-hover.png" alt="">
                                         </div>
                                     </div>
-                                    <div class="section-5-middle-item-button-active">
-                                        <img src="../images/suit-button-hover.png" alt="">
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="images/suit-item-2-fancybox-img-2.jpg" rel="gallery2" class="fancybox"></a>
-                            <a href="images/suit-item-2-fancybox-img-3.jpg" rel="gallery2" class="fancybox"></a>
-                            <a href="images/suit-item-2-fancybox-img-4.jpg" rel="gallery2" class="fancybox"></a>
-                            <a href="images/suit-item-2-fancybox-img-5.jpg" rel="gallery2" class="fancybox"></a>
-                            <a href="images/suit-item-2-fancybox-img-6.jpg" rel="gallery2" class="fancybox"></a>
-                            <a href="images/suit-item-2-fancybox-img-7.jpg" rel="gallery2" class="fancybox"></a>
-                            <a href="images/suit-item-2-fancybox-img-8.jpg" rel="gallery2" class="fancybox"></a>
-                        </div>
-                        <div class="section-5-middle-item-wrap">
-                            <a href="images/suit-item-3-fansybox.jpg" class="fancybox" rel="gallery3">
-                                <div class="section-5-middle-item">
-                                    <div class="section-5-middle-item-img">
-                                        <img src="images/suit-item-3-fansybox.jpg"alt="">
-                                    </div>
-                                    <div class="section-5-middle-item-button">
-                                        <div class="section-5-middle-item-button-wrap">
-                                            <span>СМОТРЕТЬ</span>
+                                </a>
+                                <a href="images/suit-item-2-fancybox-img-2.jpg" rel="gallery2" class="fancybox"></a>
+                                <a href="images/suit-item-2-fancybox-img-3.jpg" rel="gallery2" class="fancybox"></a>
+                                <a href="images/suit-item-2-fancybox-img-4.jpg" rel="gallery2" class="fancybox"></a>
+                                <a href="images/suit-item-2-fancybox-img-5.jpg" rel="gallery2" class="fancybox"></a>
+                                <a href="images/suit-item-2-fancybox-img-6.jpg" rel="gallery2" class="fancybox"></a>
+                                <a href="images/suit-item-2-fancybox-img-7.jpg" rel="gallery2" class="fancybox"></a>
+                                <a href="images/suit-item-2-fancybox-img-8.jpg" rel="gallery2" class="fancybox"></a>
+                            </div>
+                            <div class="section-5-middle-item-wrap">
+                                <a href="images/suit-item-3-fansybox.jpg" class="fancybox" rel="gallery3">
+                                    <div class="section-5-middle-item">
+                                        <div class="section-5-middle-item-img">
+                                            <img src="images/suit-item-3-fansybox.jpg"alt="">
+                                        </div>
+                                        <div class="section-5-middle-item-button">
+                                            <div class="section-5-middle-item-button-wrap">
+                                                <span>СМОТРЕТЬ</span>
+                                            </div>
+                                        </div>
+                                        <div class="section-5-middle-item-button-active">
+                                            <img src="../images/suit-button-hover.png" alt="">
                                         </div>
                                     </div>
-                                    <div class="section-5-middle-item-button-active">
-                                        <img src="../images/suit-button-hover.png" alt="">
-                                    </div>
+                                </a>
+                                <a href="images/suit-item-3-fancybox-img-2.jpg" rel="gallery3" class="fancybox"></a>
+                                <a href="images/suit-item-3-fancybox-img-3.jpg" rel="gallery3" class="fancybox"></a>
+                                <a href="images/suit-item-3-fancybox-img-4.jpg" rel="gallery3" class="fancybox"></a>
+                                <a href="images/suit-item-3-fancybox-img-5.jpg" rel="gallery3" class="fancybox"></a>
+                                <a href="images/suit-item-3-fancybox-img-6.jpg" rel="gallery3" class="fancybox"></a>
+                                <a href="images/suit-item-3-fancybox-img-7.jpg" rel="gallery3" class="fancybox"></a>
+                                <a href="images/suit-item-3-fancybox-img-8.jpg" rel="gallery3" class="fancybox"></a>
+                                <a href="images/suit-item-3-fancybox-img-9.jpg" rel="gallery3" class="fancybox"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-5-bottom text-center">
+                        <p>На всех выступлениях и концертах мы одеты с «иголочки», поэтому на сцене выглядим на 100 баллов.</p>
+                        <p>Группа Fiesta - это 5 стильных молодых парней и красивая девушка.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="section-6">
+            <div class="mbox">
+                <div class="section-6-wrap">
+                    <div class="section-title text-center">
+                        <span>Подбираем и разучиваем репертуар<br>индивидуально для каждого</span>
+                    </div>
+                    <div class="section-6-top-text text-center">
+                        <p>У Вас есть возможность  услышать  песни, которые нравятся именно Вам.</p>
+                        <p>Мы вместе с Вами подбираем и разрабатываем список</p>
+                        <p>песен, которые будем исполнять  на празднике для Вас и ваших гостей.</p>
+                    </div>
+
+                    <div class="section-6-bottom-row cfix">
+                        <div class="section-6-item text-right">
+                            <div class="section-6-button ">
+                                <a  href="#popup-form" class="fancybox swinghref">
+                                    Узнать<br>
+                                    подробнее
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-6-item text-center"><img src="images/doctor-who.png" alt=""></div>
+                        <div class="section-6-item text-left">
+                            <div class="section-6-button ">
+                                <a href="tel:+79673667736">+7(967)366-77-36</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="section-7">
+            <div class="mbox">
+                <div class="section-7-wrap">
+                    <div class="section-title text-center white-text">
+                        <span>Группа, которую рекомендуют звезды</span>
+                    </div>
+                    <div class="section-7-middle cfix">
+                        <div class="section-7-leftside">
+                            <div class="section-7-text">
+                                <p><span>Дмитрий Хрусталев</span></p>
+                                <p>ведущий первого канала</p>
+                                <div class="section-7-italic">
+                                    <p>Я имел удовольствие работать</p>
+                                    <p>с группой Fiesta</p>
                                 </div>
+                            </div>
+                            <div class="section-7-main-button-wrap">
+                                <a href="#video-hrustalev" class="fancybox-video">
+                                    <div class="section-7-main-button">
+                                        <span>Посмотреть видео ролик</span>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="section-7-rightside text-right">
+                            <div class="section-7-text">
+                                <p><span>Виктор Васильев</span></p>
+                                <p>резидент Comedy Club</p>
+                                <div class="section-7-italic">
+                                    <p>Отличные музыканты у которых хороший музыкальный</p>
+                                    <p>вкус и мне завидно тем кто приглашает их</p>
+                                </div>
+                            </div>
+                            <div class="section-7-main-button-wrap">
+                                <a href="#video-vasilev" class="fancybox-video">
+                                    <div class="section-7-main-button">
+                                        <span>Посмотреть видео ролик</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section-7-centerside text-center">
+                            <p>+7(967)366-77-36</p>
+                            <a href="#popup-form"class="bouncehref fancybox">
+                                <span>пригласить группу</span>
                             </a>
-                            <a href="images/suit-item-3-fancybox-img-2.jpg" rel="gallery3" class="fancybox"></a>
-                            <a href="images/suit-item-3-fancybox-img-3.jpg" rel="gallery3" class="fancybox"></a>
-                            <a href="images/suit-item-3-fancybox-img-4.jpg" rel="gallery3" class="fancybox"></a>
-                            <a href="images/suit-item-3-fancybox-img-5.jpg" rel="gallery3" class="fancybox"></a>
-                            <a href="images/suit-item-3-fancybox-img-6.jpg" rel="gallery3" class="fancybox"></a>
-                            <a href="images/suit-item-3-fancybox-img-7.jpg" rel="gallery3" class="fancybox"></a>
-                            <a href="images/suit-item-3-fancybox-img-8.jpg" rel="gallery3" class="fancybox"></a>
-                            <a href="images/suit-item-3-fancybox-img-9.jpg" rel="gallery3" class="fancybox"></a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="section-8">
+            <div class="mbox">
+                <div class="section-8-wrap">
+                    <div class="section-title text-center">
+                        <span>Кто мы</span>
+                    </div>
+                    <div class="section-8-title-text text-center">
+                        <p><span>Профессионалы своего дела</span></p>
+                        <p>Все участники группы, выпускники Казанской Государственной Консерватории и Института Культуры и искусств Республики Татарстан.</p>
+                    </div>
+                    <div class="section-8-middle">
+                        <div class="section-8-row cfix">
+                            <div class="section-8-item cfix">
+                                <div class="section-8-item-img"><a href="images/item-people-1-big.jpg" class="fancybox"><img src="images/item-people-1.png" alt=""></a></div>
+                                <div class="section-8-item-desc">
+                                    <div class="section-8-item-title">Катя Ахметзянова</div>
+                                    <div class="section-8-item-minititle">Bокал</div>
+                                    <div class="section-8-item-text section-8-item-text-fix">«Кто-то однажды назвал голос «вторым лицом», и действительно голос может рассказать о человеке также много, как и лицо».</div>
+                                </div>
+                            </div>
+                            <div class="section-8-item cfix">
+                            <div class="section-8-item-img"><a href="images/item-people-2-big.jpg" class="fancybox"><img src="images/item-people-2.png" alt=""></a></div>
+                                <div class="section-8-item-desc">
+                                    <div class="section-8-item-title">Ильнар Фатихов </div>
+                                    <div class="section-8-item-minititle">бас гитара и клавишные аналоговые инструменты</div>
+                                    <div class="section-8-item-text">«Я слышал предположение,  что через  100 лет рыжеволосых людей не станет, поэтому я решил оставить яркую музыкальную вспышку в сознании людей».</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-8-row cfix">
+                            <div class="section-8-item cfix">
+                            <div class="section-8-item-img"><a href="images/item-people-3-big.jpg" class="fancybox"><img src="images/item-people-3.png" alt=""></a></div>
+                                <div class="section-8-item-desc">
+                                    <div class="section-8-item-title">Роман Тушев</div>
+                                    <div class="section-8-item-minititle">Bокал</div>
+                                    <div class="section-8-item-text">Голос — визитная карточка человека, именно поэтому в крупнейших банках мира многие сейфы запрограммированы не на фразу-пароль, а на голос владельца. Чуть какой-то обертон отклонился в сторону — и заветная дверца ни за что не откроется.</div>
+                                </div>
+                            </div>
+                            <div class="section-8-item cfix">
+                            <div class="section-8-item-img"><a href="images/item-people-4-big.jpg" class="fancybox"><img src="images/item-people-4.png" alt=""></a></div>
+                                <div class="section-8-item-desc">
+                                    <div class="section-8-item-title">Ринат Рысьмятов </div>
+                                    <div class="section-8-item-minititle">гитара</div>
+                                    <div class="section-8-item-text section-8-item-text-fix">Придерживаюсь понятия «Гитарист не может ничего испортить. Он экспериментирует с гаммами». </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-8-row cfix">
+                            <div class="section-8-item cfix">
+                                <div class="section-8-item-img"><a href="images/item-people-5-big.jpg" class="fancybox"><img src="images/item-people-5.png" alt=""></a></div>
+                                <div class="section-8-item-desc">
+                                    <div class="section-8-item-title">Тимур Сапаров </div>
+                                    <div class="section-8-item-minititle">ударные</div>
+                                    <div class="section-8-item-text">«Пусть с позиции слушателя эти инструменты и выглядят несерьёзно, а место позади ударной установки, казалось бы, и не притягивает взгляды фанаток, но именно я создаю ритм мелодии и мне это нравится». </div>
+                                </div>
+                            </div>
+                            <div class="section-8-item cfix">
+                                <div class="section-8-item-img"><a href="images/item-people-6-big.jpg" class="fancybox"><img src="images/item-people-6.png" alt=""></a></div>
+                                <div class="section-8-item-desc">
+                                    <div class="section-8-item-title">Ленар Шамсетдинов </div>
+                                    <div class="section-8-item-minititle">клавишные инструменты,миди.</div>
+                                    <div class="section-8-item-text">Многие считают, что клавишник - это некий персонаж музыкальной группы, увидеть которого можно только по ту сторону экрана, но прошло десять лет, и я все еще не согласен с ними. </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="section-5-bottom text-center">
-                    <p>На всех выступлениях и концертах мы одеты с «иголочки», поэтому на сцене выглядим на 100 баллов.</p>
-                    <p>Группа Fiesta - это 5 стильных молодых парней и красивая девушка.</p>
+            </div>
+        </section>
+        <section class="section-9">
+            <div class="mbox">
+                <div class="section-9-wrap">
+                    <div class="section-title text-center white-text">
+                        <span>Fiesta  в цифрах</span>
+                    </div>
+                    <div class="section-9-row cfix">
+                        <div class="section-9-item">
+                            <div class="section-9-item-circle">
+                                <input type="text" value="180" class="canvas-cirlce">
+                            </div>
+                            <div class="section-9-item-desc">Счастливых пар для которых мы выступали</div>
+                        </div>
+                        <div class="section-9-item">
+                            <div class="section-9-item-circle">
+                                <input type="text" value="250" class="canvas-cirlce">
+                            </div>
+                            <div class="section-9-item-desc">Выступлений на корпоративных мероприятиях </div>
+                        </div>
+                        <div class="section-9-item">
+                            <div class="section-9-item-circle">
+                                <input type="text" value="1800" class="canvas-cirlce">
+                            </div>
+                            <div class="section-9-item-desc">Часов проведенных на сцене</div>
+                        </div>
+                        <div class="section-9-item">
+                            <div class="section-9-item-circle">
+                                <input type="text" value="207" class="canvas-cirlce">
+                            </div>
+                            <div class="section-9-item-desc">Юбилеев  фуршетов и деловых мероприятий</div>
+                        </div>
+                        <div class="section-9-item">
+                            <div class="section-9-item-circle">
+                                <input type="text" value="36" class="canvas-cirlce">
+                            </div>
+                            <div class="section-9-item-desc">В сумме общий стаж работы</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="section-6">
-        <div class="mbox">
-            <div class="section-6-wrap">
+        </section>
+        <section class="section-10">
+            <div class="mbox">
                 <div class="section-title text-center">
-                    <span>Подбираем и разучиваем репертуар<br>индивидуально для каждого</span>
+                    <span>Цены</span>
                 </div>
-                <div class="section-6-top-text text-center">
-                    <p>У Вас есть возможность  услышать  песни, которые нравятся именно Вам.</p>
-                    <p>Мы вместе с Вами подбираем и разрабатываем список</p>
-                    <p>песен, которые будем исполнять  на празднике для Вас и ваших гостей.</p>
-                </div>
+                <div class="section-tenth-wrap cfix">
 
-                <div class="section-6-bottom-row cfix">
-                    <div class="section-6-item text-right">
-                        <div class="section-6-button ">
-                            <a href="#">
-                                Узнать<br>
-                                подробнее
-                            </a>
+                    <div class="section-tenth-item">
+                        <div class="section-tenth-item-wrap">
+                            <div class="section-tenth-item-title">Казань</div>
+                            <div class="section-tenth-item-body">
+                                <form>
+                                    <div class="section-tenth-item-form">
+                                        <div class="section-tenth-item-form-row cfix">
+                                            <div class="section-tenth-item-form-col">
+                                                <div class="circle-value vfix-before">
+                                                    <span class="from">от</span>
+                                                    <span class="circle-value-main">33</span>
+                                                    <span class="to">т&#47;руб</span>
+                                                </div>
+                                                <div class="price-title">1 ЧАС ЖИВОЙ МУЗЫКИ ИЛИ 2 БЛОКА ПО 30 МИНУТ</div>
+                                                <div class="price-text">Группа находится на мероприятии не более 3 часов</div>
+                                            </div>
+                                            <div class="section-tenth-item-form-col">
+                                                <div class="circle-value vfix-before active">
+                                                    <span class="from">от</span>
+                                                    <span class="circle-value-main">40</span>
+                                                    <span class="to">т&#47;руб</span>
+                                                </div>
+                                                <div class="price-title">1.5 ЧАСА ЖИВОЙ МУЗЫКИ  ИЛИ 3 БЛОКА ПО 30 МИНУТ</div>
+                                                <div class="price-text">Группа находится на мероприятии в течении всего вечера.</div>
+                                            </div>
+                                        </div>
+                                        <div class="section-tenth-item-form-submit">
+                                            <!-- <input type="submit" value="Заказать"> -->
+                                            <a href="#" class="modal-popup">Заказать</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                    <div class="section-6-item text-center"><img src="images/doctor-who.png" alt=""></div>
-                    <div class="section-6-item text-left">
-                        <div class="section-6-button ">
-                            <a href="tel:+79673667736">+7(967)366-77-36</a>
+                    <div class="section-tenth-item">
+                        <div class="section-tenth-item-wrap">
+                            <div class="section-tenth-item-title">Татарстан</div>
+                            <div class="section-tenth-item-body">
+                                <form>
+                                    <div class="section-tenth-item-form">
+                                        <div class="section-tenth-item-form-row cfix">
+                                            <div class="section-tenth-item-form-col">
+                                                <div class="circle-value vfix-before">
+                                                    <span class="from">от</span>
+                                                    <span class="circle-value-main">43</span>
+                                                    <span class="to">т&#47;руб</span>
+                                                </div>
+                                            </div>
+                                            <div class="section-tenth-item-form-col">
+                                                <div class="circle-value vfix-before">
+                                                    <span class="from">от</span>
+                                                    <span class="circle-value-main">50</span>
+                                                    <span class="to">т&#47;руб</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="section-tenth-item-form-row cfix">
+                                            <div class="section-tenth-item-form-col no-float">
+                                                <div class="price-title">1.5 ЧАСА ЖИВОЙ МУЗЫКИ ИЛИ 3 БЛОКА ПО 30 МИНУТ</div>
+                                                <div class="price-text">Группа находится на мероприятии в течении всего вечера.</div>
+                                            </div>
+                                        </div>
+                                        <div class="section-tenth-item-form-submit">
+                                            <!-- <input type="submit" value="Заказать"> -->
+                                            <a href="#" class="modal-popup">Заказать</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-tenth-item">
+                        <div class="section-tenth-item-wrap">
+                            <div class="section-tenth-item-title">Россия</div>
+                            <div class="section-tenth-item-body">
+                                <form>
+                                    <div class="section-tenth-item-form">
+                                        <div class="section-tenth-item-form-row cfix">
+                                            <div class="section-tenth-item-form-col">
+                                                <div class="circle-value vfix-before">
+                                                    <span class="from">от</span>
+                                                    <span class="circle-value-main">40</span>
+                                                    <span class="to">т&#47;руб</span>
+                                                </div>
+                                            </div>
+                                            <div class="section-tenth-item-form-col">
+                                                <div class="circle-value vfix-before">
+                                                    <span class="from">от</span>
+                                                    <span class="circle-value-main">130</span>
+                                                    <span class="to">т&#47;руб</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="section-tenth-item-form-select zNice">
+                                            <select>
+                                                <option>Выбрать город</option>
+                                                <option>town1</option>
+                                                <option>town2</option>
+                                                <option>town3</option>
+                                            </select>
+                                        </div>
+                                        <div class="price-title text-center">1.5 ЧАСА ЖИВОЙ МУЗЫКИ ИЛИ 3 БЛОКА ПО 30 МИНУ</div>
+                                        <div class="section-tenth-item-form-text"><p>Группа находится на мероприятии в течении всего вечера.</p><br>Расчет цены зависит от расстояния до города</div>
+                                        <div class="section-tenth-item-form-submit">
+                                            <!-- <input type="submit" value="Заказать"> -->
+                                            <a href="#" class="modal-popup">Заказать</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-
+                <div class="section-tenth-description"><p>Аренда звукового оборудования в стоимость не входит.</p>
+        <p>Но у нас есть партнеры, которые могут привезти полностью звук под ключ.</p></div>
             </div>
-        </div>
-    </section>
-    <section class="section-7">
-        <div class="mbox">
-            <div class="section-7-wrap">
-                <div class="section-title text-center white-text">
-                    <span>Группа, которую рекомендуют звезды</span>
+        </section>
+        <section class="section-11">
+            <div class="mbox">
+                <div class="section-title white-text text-center">
+                    <span>Забронировать дату</span>
                 </div>
-                <div class="section-7-middle cfix">
-                    <div class="section-7-leftside">
-                        <div class="section-7-text">
-                            <p><span>Дмитрий Хрусталев</span></p>
-                            <p>ведущий первого канала</p>
-                            <div class="section-7-italic">
-                                <p>Я имел удовольствие работать</p>
-                                <p>с группой Fiesta</p>
-                            </div>
-                        </div>
-                        <div class="section-7-main-button-wrap">
-                            <a href="#video-hrustalev" class="fancybox-video">
-                                <div class="section-7-main-button">
-                                    <span>Посмотреть видео ролик</span>
+
+                <div class="section-elewenth-wrap">
+                    <form>
+                        <div class="section-elewenth-form-wrap cfix">
+
+                            <div class="section-elewenth-form">
+                                <div class="form-item">
+                                    <input type="text" required placeholder="Имя" name="name" />
                                 </div>
+                                <div class="form-item">
+                                    <input type="text" class="input-number" required placeholder="Номер телефона" name="telefone" />
+                                </div>
+                                <div class="form-item">
+                                    <input type="text" class="choseDate" required placeholder="Выбрать дату" name="date" />
+                                </div>
+                                <div class="form-item submit">
+                                    <input type="submit" value="Забронировать дату" />
+                                </div>
+                                <div class="form-description">
+                                    <p>Подробности по телефону</p>
+                                    <p>+7(967)366-77-36</p>
+                                </div>
+                            </div>
+
+                            <div class="section-elewenth-calendar">
+                                <div class="datepicker"></div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="section-12">
+            <div class="mbox">
+                <div class="section-title text-center">
+                    <span>АФИША ВЫСТУПЛЕНИЙ</span>
+                </div>
+
+                <div class="section-twelfth-text">Если у Вас остались сомнения пригласить нас на свой праздник или нет, то приходите  на наши выступления и послушайте  нас вживую.</div>
+
+                <div class="section-twelfth-wrap cfix">
+
+                    <div class="section-twelfth-table">
+                        <div class="section-twelfth-table-title">Апрель</div>
+                        <div class="section-twelfth-table-wrap">
+                            <table>
+                                <tr class="table-head">
+                                    <th>Число</th>
+                                    <th>Время</th>
+                                    <th>Город</th>
+                                    <th>Место</th>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+                    <div class="section-twelfth-fotos cfix">
+                        <div class="section-twelfth-img">
+                            <a href="images/perfirmance-item-1-big.jpg" class="fancybox">
+                                <img src="images/perfomance-item-1.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="section-twelfth-img">
+                            <a href="images/perfirmance-item-2-big.jpg" class="fancybox">
+                                <img src="images/perfomance-item-2.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="section-twelfth-img">
+                            <a href="images/perfirmance-item-3-big.jpg" class="fancybox">
+                                <img src="images/perfomance-item-3.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="section-twelfth-img">
+                            <a href="images/perfirmance-item-4-big.jpg" class="fancybox">
+                                <img src="images/perfomance-item-4.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="section-twelfth-img">
+                            <a href="images/perfirmance-item-5-big.jpg" class="fancybox">
+                                <img src="images/perfomance-item-5.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="section-twelfth-img">
+                            <a href="images/perfirmance-item-6-big.jpg" class="fancybox">
+                                <img src="images/perfomance-item-6.png" alt="" />
                             </a>
                         </div>
                     </div>
-                    <div class="section-7-rightside text-right">
-                        <div class="section-7-text">
-                            <p><span>Виктор Васильев</span></p>
-                            <p>резидент Comedy Club</p>
-                            <div class="section-7-italic">
-                                <p>Отличные музыканты у которых хороший музыкальный</p>
-                                <p>вкус и мне завидно тем кто приглашает их</p>
-                            </div>
-                        </div>
-                        <div class="section-7-main-button-wrap">
-                            <a href="#video-vasilev" class="fancybox-video">
-                                <div class="section-7-main-button">
-                                    <span>Посмотреть видео ролик</span>
-                                </div>
-                            </a>
-                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-13">
+            <div class="mbox">
+                <div class="section-title white-text text-center">
+                    <span>Для организаторов</span>
+                </div>
+                <div class="section-thirdtheenth-items-wrap cfix">
+                    <div class="section-thirdtheenth-item">
+                        <a href="/docs/repertoire_new_-_deep.zip" download>
+                            <span class="section-thirdtheenth-item-img">
+                                <img src="images/organizators-item-1.png" alt="" class="active">
+                                <img src="images/organizators-item-1-active.png" alt="" class="hover-img">
+                            </span>
+                            <span class="section-thirdtheenth-item-text">СКАЧАТЬ РЕПЕРТУАР</span>
+                        </a>
                     </div>
-                    <div class="section-7-centerside text-center">
-                        <p>+7(967)366-77-36</p>
+                    <div class="section-thirdtheenth-item">
+                        <a href="/docs/technical_rider_cover_bands.zip" download>
+                            <span class="section-thirdtheenth-item-img">
+                                <img src="images/organizators-item-2.png" alt="" class="active">
+                                <img src="images/organizators-item-2-active.png" alt="" class="hover-img">
+                            </span>
+                            <span class="section-thirdtheenth-item-text">СКАЧАТЬ ТЕХНИЧЕСКИЙ РАЙДЕР</span>
+                        </a>
+                    </div>
+                    <div class="section-thirdtheenth-item">
+                        <a href="docs/household_rider_group_fiesta.zip" download>
+                            <span class="section-thirdtheenth-item-img">
+                                <img src="images/organizators-item-3.png" alt="" class="active">
+                                <img src="images/organizators-item-3-active.png" alt="" class="hover-img">
+                            </span>
+                            <span class="section-thirdtheenth-item-text">СКАЧАТЬ БЫТОВОЙ РАЙДЕР</span>
+                        </a>
+                    </div>
+                    <div class="section-thirdtheenth-item">
+                        <a href="/docs/all_Fiesta.zip" download>
+                            <span class="section-thirdtheenth-item-img">
+                                <img src="images/organizators-item-4.png" alt="" class="active">
+                                <img src="images/organizators-item-4-active.png" alt="" class="hover-img">
+                            </span>
+                            <span class="section-thirdtheenth-item-text">СКАЧАТЬ все разом</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-14">
+            <div class="mbox">
+                <div class="section-title text-center">
+                    <span>нам доверили свой празник</span>
+                </div>
+                <div class="section-fourteenth-items-wrap cfix">
+                    <div class="section-fourteenth-item">
                         <a href="#">
-                            <span>пригласить группу</span>
+                            <img src="images/sponsor-item-1-active.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="section-fourteenth-item">
+                        <a href="#">
+                            <img src="images/sponsor-item-2-active.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="section-fourteenth-item">
+                        <a href="#">
+                            <img src="images/sponsor-item-3-active.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="section-fourteenth-item">
+                        <a href="#">
+                            <img src="images/sponsor-item-4-active.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="section-fourteenth-item">
+                        <a href="#">
+                            <img src="images/sponsor-item-5-active.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="section-fourteenth-item">
+                        <a href="#">
+                            <img src="images/sponsor-item-6-active.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="section-fourteenth-item">
+                        <a href="#">
+                            <img src="images/sponsor-item-7-active.png" alt="" />
                         </a>
                     </div>
                 </div>
+            </div>
+        </section>
 
-
-            </div>
-        </div>
-    </section>
-    <section class="section-8">
-        <div class="mbox">
-            <div class="section-8-wrap">
-                <div class="section-title text-center">
-                    <span>Кто мы</span>
+        <footer>
+            <div class="mbox">
+                <div class="section-title white-text text-center">
+                    <span>контакты</span>
                 </div>
-                <div class="section-8-title-text text-center">
-                    <p><span>Профессионалы своего дела</span></p>
-                    <p>Все участники группы, выпускники Казанской Государственной Консерватории и Института Культуры и искусств Республики Татарстан.</p>
-                </div>
-                <div class="section-8-middle">
-                    <div class="section-8-row cfix">
-                        <div class="section-8-item cfix">
-                            <div class="section-8-item-img"><a href="images/item-people-1-big.jpg" class="fancybox"><img src="images/item-people-1.png" alt=""></a></div>
-                            <div class="section-8-item-desc">
-                                <div class="section-8-item-title">Катя Ахметзянова</div>
-                                <div class="section-8-item-minititle">Bокал</div>
-                                <div class="section-8-item-text section-8-item-text-fix">«Кто-то однажды назвал голос «вторым лицом», и действительно голос может рассказать о человеке также много, как и лицо».</div>
-                            </div>
-                        </div>
-                        <div class="section-8-item cfix">
-                        <div class="section-8-item-img"><a href="images/item-people-2-big.jpg" class="fancybox"><img src="images/item-people-2.png" alt=""></a></div>
-                            <div class="section-8-item-desc">
-                                <div class="section-8-item-title">Ильнар Фатихов </div>
-                                <div class="section-8-item-minititle">бас гитара и клавишные аналоговые инструменты</div>
-                                <div class="section-8-item-text">«Я слышал предположение,  что через  100 лет рыжеволосых людей не станет, поэтому я решил оставить яркую музыкальную вспышку в сознании людей».</div>
-                            </div>
-                        </div>
+                <div class="footer-section cfix">
+                    <div class="footer-col">
+                        <a  href="#" class="modal-popup">
+                            <span class="footer-icon-wrap">
+                                <img src="images/footer-item-img-1.png" alt="" />
+                            </span>
+                            <span class="footer-text">+7(967)366-77-36</span>
+                        </a>
                     </div>
-                    <div class="section-8-row cfix">
-                        <div class="section-8-item cfix">
-                        <div class="section-8-item-img"><a href="images/item-people-3-big.jpg" class="fancybox"><img src="images/item-people-3.png" alt=""></a></div>
-                            <div class="section-8-item-desc">
-                                <div class="section-8-item-title">Роман Тушев</div>
-                                <div class="section-8-item-minititle">Bокал</div>
-                                <div class="section-8-item-text">Голос — визитная карточка человека, именно поэтому в крупнейших банках мира многие сейфы запрограммированы не на фразу-пароль, а на голос владельца. Чуть какой-то обертон отклонился в сторону — и заветная дверца ни за что не откроется.</div>
-                            </div>
-                        </div>
-                        <div class="section-8-item cfix">
-                        <div class="section-8-item-img"><a href="images/item-people-4-big.jpg" class="fancybox"><img src="images/item-people-4.png" alt=""></a></div>
-                            <div class="section-8-item-desc">
-                                <div class="section-8-item-title">Ринат Рысьмятов </div>
-                                <div class="section-8-item-minititle">гитара</div>
-                                <div class="section-8-item-text section-8-item-text-fix">Придерживаюсь понятия «Гитарист не может ничего испортить. Он экспериментирует с гаммами». </div>
-                            </div>
-                        </div>
+                    <div class="footer-col">
+                        <a href="https://vk.com/fiestamusic">
+                            <span class="footer-icon-wrap">
+                                <img src="images/footer-item-img-2.png" alt="" />
+                            </span>
+                            <span class="footer-text">vk.comfiestamusic</span>
+                        </a>
                     </div>
-                    <div class="section-8-row cfix">
-                        <div class="section-8-item cfix">
-                            <div class="section-8-item-img"><a href="images/item-people-5-big.jpg" class="fancybox"><img src="images/item-people-5.png" alt=""></a></div>
-                            <div class="section-8-item-desc">
-                                <div class="section-8-item-title">Тимур Сапаров </div>
-                                <div class="section-8-item-minititle">ударные</div>
-                                <div class="section-8-item-text">«Пусть с позиции слушателя эти инструменты и выглядят несерьёзно, а место позади ударной установки, казалось бы, и не притягивает взгляды фанаток, но именно я создаю ритм мелодии и мне это нравится». </div>
-                            </div>
-                        </div>
-                        <div class="section-8-item cfix">
-                            <div class="section-8-item-img"><a href="images/item-people-6-big.jpg" class="fancybox"><img src="images/item-people-6.png" alt=""></a></div>
-                            <div class="section-8-item-desc">
-                                <div class="section-8-item-title">Ленар Шамсетдинов </div>
-                                <div class="section-8-item-minititle">клавишные инструменты,миди.</div>
-                                <div class="section-8-item-text">Многие считают, что клавишник - это некий персонаж музыкальной группы, увидеть которого можно только по ту сторону экрана, но прошло десять лет, и я все еще не согласен с ними. </div>
-                            </div>
-                        </div>
+                    <div class="footer-col">
+                        <a href="https://instagram.com/fiestakazan/">
+                            <span class="footer-icon-wrap">
+                                <img src="images/footer-item-img-3.png" alt="" />
+                            </span>
+                            <span class="footer-text">fiestakazan</span>
+                        </a>
+                    </div>
+                    <div class="footer-col">
+                        <a href="mailto:fiestamus@gmail.com">
+                            <span class="footer-icon-wrap">
+                                <img src="images/footer-item-img-4.png" alt="" />
+                            </span>
+                            <span class="footer-text">fiestamus@gmail.com</span>
+                        </a>
+                    </div>
+                    <div class="footer-col">
+                        <a href="https://www.youtube.com/channel/UCLNt-luCsBirJkRAyiPmDLA">
+                            <span class="footer-icon-wrap">
+                                <img src="images/footer-item-img-5.png" alt="" />
+                            </span>
+                            <span class="footer-text">Кавер-группа Fiesta</span>
+                        </a>
+                    </div>
+                    <div class="footer-col">
+                        <a href="tel:+79673667736">
+                            <span class="footer-icon-wrap">
+                                <img src="images/footer-item-img-6.png" alt="" />
+                            </span>
+                            <span class="footer-text">Whatsapp</span>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="section-9">
-        <div class="mbox">
-            <div class="section-9-wrap">
-                <div class="section-title text-center white-text">
-                    <span>Fiesta  в цифрах</span>
-                </div>
-                <div class="section-9-row cfix">
-                    <div class="section-9-item">
-                        <div class="section-9-item-circle">
-                            <input type="text" value="180" class="canvas-cirlce">
-                        </div>
-                        <div class="section-9-item-desc">Счастливых пар для которых мы выступали</div>
+        </footer>
+        <div class="modal">
+            <div class="modal-wrap">
+                <div class="modal-wrap-close"></div>
+                <div class="modal-form active">
+                    <div class="modal-form-title">
+                        Мы перезвоним вам за <span>17</span> сек. Засекайте!
                     </div>
-                    <div class="section-9-item">
-                        <div class="section-9-item-circle">
-                            <input type="text" value="250" class="canvas-cirlce">
-                        </div>
-                        <div class="section-9-item-desc">Выступлений на корпоративных мероприятиях </div>
+                    <div class="modal-form-main">
+                        <form id="">
+                            <div class="popup-form-ipnut">
+                              <div class="popup-form-input-item">
+                                <input type="text" placeholder="Имя" name="form-name">
+                              </div>
+                              <div class="popup-form-input-item">
+                                <input type="text" placeholder="Номер телефона" name="form-tel">
+                              </div>
+                              <div class="popup-form-submit">
+                                <input type="submit" value="Жду звонка" class="button">
+                              </div>
+                                <div id="countdown"></div>
+                            </div>
+                        </form>
                     </div>
-                    <div class="section-9-item">
-                        <div class="section-9-item-circle">
-                            <input type="text" value="1800" class="canvas-cirlce">
-                        </div>
-                        <div class="section-9-item-desc">Часов проведенных на сцене</div>
-                    </div>
-                    <div class="section-9-item">
-                        <div class="section-9-item-circle">
-                            <input type="text" value="207" class="canvas-cirlce">
-                        </div>
-                        <div class="section-9-item-desc">Юбилеев  фуршетов и деловых мероприятий</div>
-                    </div>
-                    <div class="section-9-item">
-                        <div class="section-9-item-circle">
-                            <input type="text" value="36" class="canvas-cirlce">
-                        </div>
-                        <div class="section-9-item-desc">В сумме общий стаж работы</div>
+                    <div class="modal-form-next-time">
+                        <span>Выбрать удобное время звонка</span>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="section-10">
-        <div class="mbox">
-            <div class="section-title text-center">
-                <span>Цены</span>
-            </div>
-            <div class="section-tenth-wrap cfix">
-
-                <div class="section-tenth-item">
-                    <div class="section-tenth-item-wrap">
-                        <div class="section-tenth-item-title">Казань</div>
-                        <div class="section-tenth-item-body">
-                            <form>
-                                <div class="section-tenth-item-form">
-                                    <div class="section-tenth-item-form-row cfix">
-                                        <div class="section-tenth-item-form-col">
-                                            <div class="circle-value vfix-before">
-                                                <span class="from">от</span>
-                                                <span class="circle-value-main">33</span>
-                                                <span class="to">т&#47;руб</span>
-                                            </div>
-                                            <div class="price-title">1 ЧАС ЖИВОЙ МУЗЫКИ ИЛИ 2 БЛОКА ПО 30 МИНУТ</div>
-                                            <div class="price-text">Группа находится на мероприятии не более 3 часов</div>
-                                        </div>
-                                        <div class="section-tenth-item-form-col">
-                                            <div class="circle-value vfix-before active">
-                                                <span class="from">от</span>
-                                                <span class="circle-value-main">40</span>
-                                                <span class="to">т&#47;руб</span>
-                                            </div>
-                                            <div class="price-title">1.5 ЧАСА ЖИВОЙ МУЗЫКИ  ИЛИ 3 БЛОКА ПО 30 МИНУТ</div>
-                                            <div class="price-text">Группа находится на мероприятии в течении всего вечера.</div>
-                                        </div>
+                <div class="modal-form-answer">
+                    <div class="modal-form-title">
+                        Вы смогли дозвониться ?
+                    </div>
+                    <div class="modal-form-answer-button">
+                        <button class="button answer-yes">Да</button>
+                        <button class="button answer-no">Нет</button>
+                    </div>
+                </div>
+                <div class="modal-form-answer-yes">
+                    <div class="modal-form-title">
+                        Отлично!
+                    </div>
+                </div>
+                <div class="modal-form-answer-no">
+                    <div class="modal-form-title">
+                        Выберите удобное время звонка
+                    </div>
+                    <div class="modal-form-main">
+                        <form id="">
+                            <div class="popup-form-ipnut">
+                                <div class="modal-form-answer-no-row">
+                                    <div class="modal-form-answer-no-select zNice">
+                                      <select>
+                                          <option>Завтра</option>
+                                          <option>Послезавтра</option>
+                                          <option>20 Июн</option>
+                                          <option>21 Июн</option>
+                                      </select>
                                     </div>
-                                    <div class="section-tenth-item-form-submit">
-                                        <input type="submit" value="Заказать">
+                                    <div class="modal-form-answer-no-text">в</div>
+                                    <div class="modal-form-answer-no-select zNice">
+                                      <select>
+                                          <option>10:00</option>
+                                          <option>12:00</option>
+                                          <option>15:00</option>
+                                          <option>17:00</option>
+                                          <option>19:00</option>
+                                      </select>
                                     </div>
                                 </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-tenth-item">
-                    <div class="section-tenth-item-wrap">
-                        <div class="section-tenth-item-title">Татарстан</div>
-                        <div class="section-tenth-item-body">
-                            <form>
-                                <div class="section-tenth-item-form">
-                                    <div class="section-tenth-item-form-row cfix">
-                                        <div class="section-tenth-item-form-col">
-                                            <div class="circle-value vfix-before">
-                                                <span class="from">от</span>
-                                                <span class="circle-value-main">43</span>
-                                                <span class="to">т&#47;руб</span>
-                                            </div>
-                                        </div>
-                                        <div class="section-tenth-item-form-col">
-                                            <div class="circle-value vfix-before">
-                                                <span class="from">от</span>
-                                                <span class="circle-value-main">50</span>
-                                                <span class="to">т&#47;руб</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="section-tenth-item-form-row cfix">
-                                        <div class="section-tenth-item-form-col no-float">
-                                            <div class="price-title">1.5 ЧАСА ЖИВОЙ МУЗЫКИ ИЛИ 3 БЛОКА ПО 30 МИНУТ</div>
-                                            <div class="price-text">Группа находится на мероприятии в течении всего вечера.</div>
-                                        </div>
-                                    </div>
-                                    <div class="section-tenth-item-form-submit">
-                                        <input type="submit" value="Заказать">
-                                    </div>
+                                <div class="popup-form-input-item">
+                                <input type="text" placeholder="Номер телефона" name="form-tel">
                                 </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-tenth-item">
-                    <div class="section-tenth-item-wrap">
-                        <div class="section-tenth-item-title">Россия</div>
-                        <div class="section-tenth-item-body">
-                            <form>
-                                <div class="section-tenth-item-form">
-                                    <div class="section-tenth-item-form-row cfix">
-                                        <div class="section-tenth-item-form-col">
-                                            <div class="circle-value vfix-before">
-                                                <span class="from">от</span>
-                                                <span class="circle-value-main">40</span>
-                                                <span class="to">т&#47;руб</span>
-                                            </div>
-                                        </div>
-                                        <div class="section-tenth-item-form-col">
-                                            <div class="circle-value vfix-before">
-                                                <span class="from">от</span>
-                                                <span class="circle-value-main">130</span>
-                                                <span class="to">т&#47;руб</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="section-tenth-item-form-select zNice">
-                                        <select>
-                                            <option>Выбрать город</option>
-                                            <option>town1</option>
-                                            <option>town2</option>
-                                            <option>town3</option>
-                                        </select>
-                                    </div>
-                                    <div class="price-title text-center">1.5 ЧАСА ЖИВОЙ МУЗЫКИ ИЛИ 3 БЛОКА ПО 30 МИНУ</div>
-                                    <div class="section-tenth-item-form-text"><p>Группа находится на мероприятии в течении всего вечера.</p>Расчет цены зависит от расстояния до города</div>
-                                    <div class="section-tenth-item-form-submit">
-                                        <input type="submit" value="Заказать">
-                                    </div>
+                                <div class="popup-form-submit">
+                                <input type="submit" value="Жду звонка" class="button">
                                 </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section-tenth-description"><p>Аренда звукового оборудования в стоимость не входит.</p>
-    <p>Но у нас есть партнеры, которые могут привезти полностью звук под ключ.</p></div>
-        </div>
-    </section>
-    <section class="section-11">
-        <div class="mbox">
-            <div class="section-title white-text text-center">
-                <span>Забронировать дату</span>
-            </div>
-
-            <div class="section-elewenth-wrap">
-                <form>
-                    <div class="section-elewenth-form-wrap cfix">
-
-                        <div class="section-elewenth-form">
-                            <div class="form-item">
-                                <input type="text" required placeholder="Имя" name="name" />
                             </div>
-                            <div class="form-item">
-                                <input type="text" class="input-number" required placeholder="Номер телефона" name="telefone" />
-                            </div>
-                            <div class="form-item">
-                                <input type="text" class="choseDate" required placeholder="Выбрать дату" name="date" />
-                            </div>
-                            <div class="form-item submit">
-                                <input type="submit" value="Забронировать дату" />
-                            </div>
-                            <div class="form-description">
-                                <p>Подробности по телефону</p>
-                                <p>+7(967)366-77-36</p>
-                            </div>
-                        </div>
-
-                        <div class="section-elewenth-calendar">
-                            <div class="datepicker"></div>
-                        </div>
-
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-    <section class="section-12">
-        <div class="mbox">
-            <div class="section-title text-center">
-                <span>АФИША ВЫСТУПЛЕНИЙ</span>
-            </div>
-
-            <div class="section-twelfth-text">Если у Вас остались сомнения пригласить нас на свой праздник или нет, то приходите  на наши выступления и послушайте  нас вживую.</div>
-
-            <div class="section-twelfth-wrap cfix">
-
-                <div class="section-twelfth-table">
-                    <div class="section-twelfth-table-title">Апрель</div>
-                    <div class="section-twelfth-table-wrap">
-                        <table>
-                            <tr class="table-head">
-                                <th>Число</th>
-                                <th>Время</th>
-                                <th>Город</th>
-                                <th>Место</th>
-                            </tr>
-
-                        </table>
+                        </form>
                     </div>
                 </div>
-                <div class="section-twelfth-fotos cfix">
-                    <div class="section-twelfth-img">
-                        <a href="images/perfirmance-item-1-big.jpg" class="fancybox">
-                            <img src="images/perfomance-item-1.png" alt="" />
-                        </a>
-                    </div>
-                    <div class="section-twelfth-img">
-                        <a href="images/perfirmance-item-2-big.jpg" class="fancybox">
-                            <img src="images/perfomance-item-2.png" alt="" />
-                        </a>
-                    </div>
-                    <div class="section-twelfth-img">
-                        <a href="images/perfirmance-item-3-big.jpg" class="fancybox">
-                            <img src="images/perfomance-item-3.png" alt="" />
-                        </a>
-                    </div>
-                    <div class="section-twelfth-img">
-                        <a href="images/perfirmance-item-4-big.jpg" class="fancybox">
-                            <img src="images/perfomance-item-4.png" alt="" />
-                        </a>
-                    </div>
-                    <div class="section-twelfth-img">
-                        <a href="images/perfirmance-item-5-big.jpg" class="fancybox">
-                            <img src="images/perfomance-item-5.png" alt="" />
-                        </a>
-                    </div>
-                    <div class="section-twelfth-img">
-                        <a href="images/perfirmance-item-6-big.jpg" class="fancybox">
-                            <img src="images/perfomance-item-6.png" alt="" />
-                        </a>
+                <div class="modal-form-answer-no-next">
+                    <div class="modal-form-title">
+                       Звонок заказан !
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section-13">
-        <div class="mbox">
-            <div class="section-title white-text text-center">
-                <span>Для организаторов</span>
-            </div>
-            <div class="section-thirdtheenth-items-wrap cfix">
-                <div class="section-thirdtheenth-item">
-                    <a href="/docs/repertoire_new_-_deep.zip" download>
-                        <span class="section-thirdtheenth-item-img">
-                            <img src="images/organizators-item-1.png" alt="" class="active">
-                            <img src="images/organizators-item-1-active.png" alt="" class="hover-img">
-                        </span>
-                        <span class="section-thirdtheenth-item-text">СКАЧАТЬ РЕПЕРТУАР</span>
-                    </a>
-                </div>
-                <div class="section-thirdtheenth-item">
-                    <a href="/docs/technical_rider_cover_bands.zip" download>
-                        <span class="section-thirdtheenth-item-img">
-                            <img src="images/organizators-item-2.png" alt="" class="active">
-                            <img src="images/organizators-item-2-active.png" alt="" class="hover-img">
-                        </span>
-                        <span class="section-thirdtheenth-item-text">СКАЧАТЬ ТЕХНИЧЕСКИЙ РАЙДЕР</span>
-                    </a>
-                </div>
-                <div class="section-thirdtheenth-item">
-                    <a href="docs/household_rider_group_fiesta.zip" download>
-                        <span class="section-thirdtheenth-item-img">
-                            <img src="images/organizators-item-3.png" alt="" class="active">
-                            <img src="images/organizators-item-3-active.png" alt="" class="hover-img">
-                        </span>
-                        <span class="section-thirdtheenth-item-text">СКАЧАТЬ БЫТОВОЙ РАЙДЕР</span>
-                    </a>
-                </div>
-                <div class="section-thirdtheenth-item">
-                    <a href="/docs/all_Fiesta.zip" download>
-                        <span class="section-thirdtheenth-item-img">
-                            <img src="images/organizators-item-4.png" alt="" class="active">
-                            <img src="images/organizators-item-4-active.png" alt="" class="hover-img">
-                        </span>
-                        <span class="section-thirdtheenth-item-text">СКАЧАТЬ все разом</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section-14">
-        <div class="mbox">
-            <div class="section-title text-center">
-                <span>нам доверили свой празник</span>
-            </div>
-            <div class="section-fourteenth-items-wrap cfix">
-                <div class="section-fourteenth-item">
-                    <a href="#">
-                        <img src="images/sponsor-item-1-active.png" alt="" />
-                    </a>
-                </div>
-                <div class="section-fourteenth-item">
-                    <a href="#">
-                        <img src="images/sponsor-item-2-active.png" alt="" />
-                    </a>
-                </div>
-                <div class="section-fourteenth-item">
-                    <a href="#">
-                        <img src="images/sponsor-item-3-active.png" alt="" />
-                    </a>
-                </div>
-                <div class="section-fourteenth-item">
-                    <a href="#">
-                        <img src="images/sponsor-item-4-active.png" alt="" />
-                    </a>
-                </div>
-                <div class="section-fourteenth-item">
-                    <a href="#">
-                        <img src="images/sponsor-item-5-active.png" alt="" />
-                    </a>
-                </div>
-                <div class="section-fourteenth-item">
-                    <a href="#">
-                        <img src="images/sponsor-item-6-active.png" alt="" />
-                    </a>
-                </div>
-                <div class="section-fourteenth-item">
-                    <a href="#">
-                        <img src="images/sponsor-item-7-active.png" alt="" />
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="mbox">
-            <div class="section-title white-text text-center">
-                <span>контакты</span>
-            </div>
-            <div class="footer-section cfix">
-                <div class="footer-col">
-                    <a href="#">
-                        <span class="footer-icon-wrap">
-                            <img src="images/footer-item-img-1.png" alt="" />
-                        </span>
-                        <span class="footer-text">+7(967)366-77-36</span>
-                    </a>
-                </div>
-                <div class="footer-col">
-                    <a href="https://vk.com\fiestamusic">
-                        <span class="footer-icon-wrap">
-                            <img src="images/footer-item-img-2.png" alt="" />
-                        </span>
-                        <span class="footer-text">vk.comfiestamusic</span>
-                    </a>
-                </div>
-                <div class="footer-col">
-                    <a href="https://instagram.com/fiestakazan/">
-                        <span class="footer-icon-wrap">
-                            <img src="images/footer-item-img-3.png" alt="" />
-                        </span>
-                        <span class="footer-text">fiestakazan</span>
-                    </a>
-                </div>
-                <div class="footer-col">
-                    <a href="mailto:fiestamus@gmail.com">
-                        <span class="footer-icon-wrap">
-                            <img src="images/footer-item-img-4.png" alt="" />
-                        </span>
-                        <span class="footer-text">fiestamus@gmail.com</span>
-                    </a>
-                </div>
-                <div class="footer-col">
-                    <a href="https://www.youtube.com/channel/UCLNt-luCsBirJkRAyiPmDLA">
-                        <span class="footer-icon-wrap">
-                            <img src="images/footer-item-img-5.png" alt="" />
-                        </span>
-                        <span class="footer-text">Кавер-группа Fiesta</span>
-                    </a>
-                </div>
-                <div class="footer-col">
-                    <a href="#">
-                        <span class="footer-icon-wrap">
-                            <img src="images/footer-item-img-6.png" alt="" />
-                        </span>
-                        <span class="footer-text">Whatsapp</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
     </div>
 </body>
 </html>
